@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="HSQLDB1" uuid="a27a7fb1-0448-4198-8376-7ea1e5b5a24d">
+    <database-info product="HSQL Database Engine" version="2.3.2" jdbc-version="4.0" driver-name="HSQL Database Engine Driver" driver-version="2.3.2">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <schema name="PUBLIC" catalog="PUBLIC"/>
+    <table name="DRIVERS" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="ID" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="BUSS" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12" def="J05VTEwn"/>
+      <column name="COLUMN_3" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4" def="MQ=="/>
+      <primary-key name="SYS_PK_10092" columns="ID"/>
+    </table>
+    <table name="DRIVERS1" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="ID" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="BUSS1" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="SYS_PK_10096" columns="ID"/>
+    </table>
+    <table name="PROFESSOR" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="ID" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4"/>
+      <column name="NAME" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12" def="J1VOS05PV04n"/>
+      <column name="SALARY" sqlType="VARBINARY" precision="16777216" scale="0" nullable="true" jdbcType="-3"/>
+      <primary-key name="SYS_PK_10103" columns="ID"/>
+    </table>
+    <table name="TABLE_NAME" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="COLUMN_1" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4" def="Mg=="/>
+      <column name="COLUMN_2" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="TABLE_NAME1" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="COLUMN_1" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4" def="Mg=="/>
+      <column name="COLUMN_2" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4" def="Mw=="/>
+    </table>
+    <table name="TABLE_NAME12" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="COLUMN_1" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4"/>
+      <column name="COLUMN_2" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4"/>
+      <column name="COLUMN_3" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4"/>
+    </table>
+    <table name="TABLE_NAME2" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="COLUMN_1" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="TABLE_NAME3" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="COLUMN_1" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4" def="Mg=="/>
+      <column name="COLUMN_2" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="TABLE_NAME4" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="COLUMN_1" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="COLUMN_2" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4" def="Ng=="/>
+    </table>
+    <table name="TABLE_NAME5" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="COLUMN_1" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4" def="Nw=="/>
+      <column name="COLUMN_2" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12" def="J05PTkFNRSc="/>
+    </table>
+    <table name="TABLE_NAME6" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="COLUMN_1" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4"/>
+      <column name="COLUMN_2" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4"/>
+      <column name="COLUMN_3" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4"/>
+      <column name="COLUMN_4" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4"/>
+      <column name="COLUMN_5" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="TABLE_NAME7" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="COLUMN_1" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4"/>
+      <column name="COLUMN_2" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4"/>
+    </table>
+    <table name="TABLE_NAME9" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="COLUMN_1" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4"/>
+      <column name="COLUMN_2" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4"/>
+      <column name="COLUMN_3" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4"/>
+      <column name="COLUMN_4" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4"/>
+      <column name="COLUMN_5" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4"/>
+    </table>
+    <table name="TABLE_NAMEH" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="COLUMN_1" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4"/>
+      <index name="TABLE_NAMEH_COLUMN_1_UINDEX" unique="true" columns="COLUMN_1"/>
+    </table>
+    <table name="TBL_BANK_ACCOUNT" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="ACCOUNTNUMBER" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="AMOUNT" sqlType="DOUBLE" precision="64" scale="0" nullable="true" jdbcType="8"/>
+      <primary-key name="SYS_PK_10110" columns="ACCOUNTNUMBER"/>
+    </table>
+  </data-source>
+</component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="data.data1.TTableName6">
+        <table name="TABLE_NAME6" schema="PUBLIC" catalog="PUBLIC"/>
+        <attributes>
+            <basic name="column1">
+                <column name="COLUMN_1" nullable="false" precision="32"/>
+            </basic>
+            <basic name="column2">
+                <column name="COLUMN_2" nullable="false" precision="32"/>
+            </basic>
+            <basic name="column3">
+                <column name="COLUMN_3" nullable="false" precision="32"/>
+            </basic>
+            <basic name="column4">
+                <column name="COLUMN_4" nullable="false" precision="32"/>
+            </basic>
+            <basic name="column5">
+                <column name="COLUMN_5" nullable="false"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

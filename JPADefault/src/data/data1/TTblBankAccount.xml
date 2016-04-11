@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="data.data1.TTblBankAccount">
+        <table name="TBL_BANK_ACCOUNT" schema="PUBLIC" catalog="PUBLIC"/>
+        <attributes>
+            <id name="accountnumber">
+                <column name="ACCOUNTNUMBER"/>
+            </id>
+            <basic name="amount">
+                <column name="AMOUNT" nullable="false" precision="64"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
