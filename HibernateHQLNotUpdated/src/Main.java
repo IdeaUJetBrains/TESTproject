@@ -41,7 +41,9 @@ public class Main {
                 final ClassMetadata classMetadata = (ClassMetadata) metadataMap.get(key);
                 final String entityName = classMetadata.getEntityName();
                 final Query query = session.createQuery("from " + entityName);
-                final Query testBugQuery = session.createQuery("from Professor");
+
+                final Query testBugQuery1 = session.createQuery("from ClassName ");
+
                 System.out.println("executing: " + query.getQueryString());
                 for (Object o : query.list()) {
                     System.out.println("  " + o);

@@ -4,13 +4,9 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url">jdbc:hsqldb:file:C:/Users/Olga
-            Pavlova/IdeaProjects/TESTproject/JPADefault/db/DB
-        </property>
+        <property name="connection.url">jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/TESTproject/JPADefault/db/DB</property>
         <property name="connection.driver_class">org.hsqldb.jdbc.JDBCDriver</property>
-        <mapping resource="data/data1/Professor.hbm.xml"/>
-        <mapping class="data.data1.Professor"/>
-        <!-- DB schema will be updated if needed -->
-        <!-- <property name="hbm2ddl.auto">update</property> -->
+        <mapping resource="IDEA41307/ClassName.hbm.xml"/>
+        <mapping class="IDEA41307.ClassName"/>
     </session-factory>
 </hibernate-configuration>
