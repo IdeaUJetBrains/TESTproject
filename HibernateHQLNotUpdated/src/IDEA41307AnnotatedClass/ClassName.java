@@ -1,4 +1,4 @@
-package IDEA41307;
+package IDEA41307AnnotatedClass;
 
 import javax.persistence.*;
 

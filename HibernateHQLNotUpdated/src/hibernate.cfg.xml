@@ -6,7 +6,18 @@
     <session-factory>
         <property name="connection.url">jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/TESTproject/JPADefault/db/DB</property>
         <property name="connection.driver_class">org.hsqldb.jdbc.JDBCDriver</property>
-        <mapping resource="IDEA41307/ClassName.hbm.xml"/>
-        <mapping class="IDEA41307.ClassName"/>
+
+        <!--AnnotatedClass-->
+        <mapping resource="IDEA41307AnnotatedClass/ClassName.hbm.xml"/>
+        <mapping class="IDEA41307AnnotatedClass.ClassName"/>
+
+        <!--BUG reproducable for this class-->
+        <mapping resource="IDEA41307NotAnnotated/Professor.hbm.xml"/>
+        <!--<mapping class="IDEA41307NotAnnotated.Professor"/>-->
+
+        <!--NotAnnotatedClass but With Class Mapping hier-->
+        <mapping resource="IDEA41307NotAnnotatedWithClassMapping/Drivers1.hbm.xml"/>
+        <mapping class="IDEA41307NotAnnotatedWithClassMapping.Drivers1"/>
+
     </session-factory>
 </hibernate-configuration>

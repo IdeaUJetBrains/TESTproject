@@ -42,7 +42,11 @@ public class Main {
                 final String entityName = classMetadata.getEntityName();
                 final Query query = session.createQuery("from " + entityName);
 
-                final Query testBugQuery1 = session.createQuery("from ClassName ");
+                final Query testQuery1 = session.createQuery("from ClassName ");
+                final Query testQuery2 = session.createQuery("from Drivers1 ");
+                final Query testQueryBugReproducable =
+                        session.createQuery("from Professor ");
+
 
                 System.out.println("executing: " + query.getQueryString());
                 for (Object o : query.list()) {
