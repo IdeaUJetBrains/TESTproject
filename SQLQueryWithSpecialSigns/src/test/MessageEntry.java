@@ -1,6 +1,6 @@
 package test;
 
-import org.hibernate.annotations.Entity;
+
 
 import javax.ejb.EJB;
 import javax.persistence.Basic;
@@ -13,7 +13,6 @@ import javax.persistence.Table;
  */
 @javax.persistence.Entity
 @Table(name = "MESSAGE_ENTRY", schema = "PUBLIC", catalog = "PUBLIC")
-@EJB
 public class MessageEntry {
     private int id;
     private String from_id;
