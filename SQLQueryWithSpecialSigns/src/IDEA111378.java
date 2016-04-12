@@ -1,5 +1,3 @@
-package test;
-
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -13,7 +11,7 @@ import java.util.List;
 /**
  * Created by Olga Pavlova on 4/12/2016.
  */
-public class IssueIDEA108719 {
+public class IDEA111378 {
     private static final SessionFactory ourSessionFactory;
     private static final ServiceRegistry serviceRegistry;
 
@@ -35,16 +33,16 @@ public class IssueIDEA108719 {
     public void foo() throws Exception {
         final Session session = getSession();
 
-        String sql = "UPDATE MessageEntry me, \n "
-                + "(SELECT if(me.from_id=@prev,@row \\:=@row+1, @row\\:=0) AS posterId,\n"
-                + "  me.id AS id, me.from_id, @prev \\:=me.from_id,me.date \n"
-                + "FROM MessageEntry me,(SELECT @row\\:=0,@prev\\:=0) z \n"
-                + "WHERE me.from_id IS NOT null ORDER BY me.from_id,me.date) ordered \n"
-                + "SET me.postOrder =ordered.posterId WHERE\n" + "  me.id =ordered.id;";
+        List<String> postOrders = new ArrayList<String>();
+        postOrders.add("test1");
+        postOrders.add("test2");
 
-        session.createSQLQuery(sql).executeUpdate();
-
+        List l = session.createSQLQuery("SELECT e.* FROM MessageEntry e WHERE e.from_id = :fromId AND e.postOrder IN :postOrders")
+                .addEntity(MessageEntry.class)
+                .setParameter("fromId", "3")
+                .setParameterList("postOrders", postOrders).list();
 
     }
+
 
 }

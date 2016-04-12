@@ -8,8 +8,8 @@
             Pavlova/IdeaProjects/TESTproject/JPADefault/db/DB
         </property>
         <property name="connection.driver_class">org.hsqldb.jdbc.JDBCDriver</property>
-        <mapping class="test.MessageEntry"/>
-        <mapping resource="test/MessageEntry.hbm.xml"/>
+        <mapping class="MessageEntry"/>
+        <mapping resource="MessageEntry.hbm.xml"/>
         <!-- DB schema will be updated if needed -->
         <!-- <property name="hbm2ddl.auto">update</property> -->
     </session-factory>
