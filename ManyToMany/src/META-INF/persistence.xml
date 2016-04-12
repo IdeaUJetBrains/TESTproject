@@ -5,12 +5,14 @@
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <mapping-file>dataLinkFromERDiagram/Busses.xml</mapping-file>
         <mapping-file>dataLinkFromERDiagram/Drivers.xml</mapping-file>
+        <mapping-file>IDEA100681/Log.xml</mapping-file>
+        <mapping-file>IDEA100681/Parts.xml</mapping-file>
         <class>dataLinkFromERDiagram.Busses</class>
         <class>dataLinkFromERDiagram.Drivers</class>
 
         <class>dataJoinTable.Drivers1</class>
         <class>dataJoinTable.Busses1</class>
-        <class>dataJoinTable.Test</class>
+        <!--<class>dataJoinTable.Test</class>-->
         <class>data.Customer</class>
         <class>data.Order</class>
         <class>data.Customer1</class>
@@ -18,8 +20,10 @@
         <class>onemorejoin.Busses2</class>
         <class>onemorejoin.Drivers2</class>
         <class>onemorejoin.Busses6</class>
+        <class>IDEA100681.Log</class>
+        <class>IDEANew.Parts</class>
         <properties>
-            <property name="hibernate.connection.url" value="jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/ManyToMany/DB/DB"/>
+            <property name="hibernate.connection.url" value="jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/TESTproject/ManyToMany/DB/DB"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/>
             <property name="hibernate.connection.driver_class" value="org.hsqldb.jdbc.JDBCDriver"/>
             <property name="hibernate.connection.username" value="SA"/>

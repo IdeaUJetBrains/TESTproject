@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/HibernateHQLNotUpdated/HibernateHQLNotUpdated.iml" filepath="$PROJECT_DIR$/HibernateHQLNotUpdated/HibernateHQLNotUpdated.iml" />
       <module fileurl="file://$PROJECT_DIR$/JPADefault/JPADefault.iml" filepath="$PROJECT_DIR$/JPADefault/JPADefault.iml" />
       <module fileurl="file://$PROJECT_DIR$/ManyToMany/ManyToMany.iml" filepath="$PROJECT_DIR$/ManyToMany/ManyToMany.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SQLQueryWithSpecialSigns/SQLQueryWithSpecialSigns.iml" filepath="$PROJECT_DIR$/SQLQueryWithSpecialSigns/SQLQueryWithSpecialSigns.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBatchSQLSintaxError/SpringBatchSQLSintaxError.iml" filepath="$PROJECT_DIR$/SpringBatchSQLSintaxError/SpringBatchSQLSintaxError.iml" />
       <module fileurl="file://$PROJECT_DIR$/TESTproject.iml" filepath="$PROJECT_DIR$/TESTproject.iml" />
     </modules>

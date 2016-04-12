@@ -8,7 +8,7 @@
         <id name="id">
             <column name="ID" sql-type="integer(32)"/>
         </id>
-        <property name="buss1">
+        <property name="from_id">
             <column name="BUSS1" sql-type="varchar(255)" not-null="true"/>
         </property>
     </class>
