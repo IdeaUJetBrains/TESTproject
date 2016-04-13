@@ -1,13 +1,18 @@
 package IDEANew;
 
 
+
 import javax.persistence.*;
 
+//import javax.persistence.Basic;
+//import javax.persistence.Entity;
+//import javax.persistence.IdClass;
 //import javax.persistence.Table;
+//import javax.persistence.Column;
+//import javax.persistence.Id;
 
-/**
- * Created by Olga Pavlova on 4/12/2016.
- */
+//import javax.persistence.Embedded;
+
 @Entity
 @IdClass(PartsPK.class)
 @Table(name = "PARTS", schema = "SYSTEM_LOBS", catalog = "PUBLIC")
