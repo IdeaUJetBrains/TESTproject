@@ -1,6 +1,7 @@
 package data;
 
 import javax.persistence.*;
+import java.util.Collection;
 
 /**
  * Created by Olga Pavlova on 11/3/2015.
@@ -49,5 +50,16 @@ public class Order {
         int result = id;
         result = 31 * result + (order != null ? order.hashCode() : 0);
         return result;
+    }
+
+    private Collection<Customer> customers;
+
+    @ManyToMany(mappedBy = "orderIds")
+    public Collection<Customer> getCustomers() {
+        return customers;
+    }
+
+    public void setCustomers(Collection<Customer> customers) {
+        this.customers = customers;
     }
 }

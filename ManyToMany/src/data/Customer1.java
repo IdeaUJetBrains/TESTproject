@@ -8,7 +8,7 @@ import java.util.Collection;
  */
 @Entity
 @Table(name = "CUSTOMER", schema = "PUBLIC", catalog = "PUBLIC")
-public class Customer1 {
+public class  Customer1 {
     private int id;
     private String customer;
     private Collection<Order1> oredrIDs;

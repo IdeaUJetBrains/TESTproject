@@ -52,11 +52,14 @@ public class Busses1 {
         return result;
     }
 
-    private Collection<dataJoinTable.Test> driverIds;
+    private Collection<Drivers1> driverIds;
     @ManyToMany
     @JoinTable(name = "BUSSDRIVERS",
             joinColumns = {@JoinColumn(name = "DRIVERID", referencedColumnName="ID")},
             inverseJoinColumns = {@JoinColumn(name = "BUSSID", referencedColumnName="ID")} )
-    public Collection<dataJoinTable.Test> getDriverIds() { return driverIds; }
+    public Collection<Drivers1> getDriverIds() { return driverIds; }
+    public void setDriverIds(Collection<Drivers1> driverIds) {
+        this.driverIds = driverIds;
+    }
 
 }

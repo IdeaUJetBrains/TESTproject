@@ -9,7 +9,7 @@ public class PartsPK implements Serializable {
     private int blockOffset;
     private long lobId;
 
-    @Column(name = "BLOCK_OFFSET", nullable = false)
+    @Column(name = "BLOCK_OFFSET", nullable = false) //resolve to column name in the DatabaseView doesn't work
     @Id
     public int getBlockOffset() {
         return blockOffset;
@@ -19,7 +19,7 @@ public class PartsPK implements Serializable {
         this.blockOffset = blockOffset;
     }
 
-    @Column(name = "LOB_ID", nullable = false)
+    @Column(name = "LOB_ID", nullable = false) //resolve to column name in the DatabaseView doesn't work
     @Id
     public long getLobId() {
         return lobId;

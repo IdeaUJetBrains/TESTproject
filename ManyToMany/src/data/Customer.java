@@ -60,5 +60,7 @@ public class Customer {
             joinColumns = {@JoinColumn(name = "ORDERID", referencedColumnName="ID")},
             inverseJoinColumns = {@JoinColumn(name = "CUSTOMERID", referencedColumnName="ID")} )
     public Collection<Order> getOrderIds() { return orderIds; }
-
+    public void setOrderIds(Collection<Order> orderIds) {
+        this.orderIds = orderIds;
+    }
 }

@@ -1,12 +1,16 @@
 package IDEANew;
 
+
 import javax.persistence.*;
+
+//import javax.persistence.Table;
 
 /**
  * Created by Olga Pavlova on 4/12/2016.
  */
 @Entity
 @IdClass(PartsPK.class)
+@Table(name = "PARTS", schema = "SYSTEM_LOBS", catalog = "PUBLIC")
 public class Parts {
     private int blockCount;
     private int blockOffset;
