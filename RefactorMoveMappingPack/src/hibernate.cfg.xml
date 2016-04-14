@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">C:/Users/Olga Pavlova/IdeaProjects/TESTproject/ManyToMany/DB</property>
+        <property name="connection.driver_class">org.hsqldb.jdbc.JDBCDriver</property>
+        <property name="connection.username">SA</property>
+
+        <mapping resource="IDEA39404/map/hbm/resources/Generated.hbm.xml"/>
+
+
+    </session-factory>
+</hibernate-configuration>
