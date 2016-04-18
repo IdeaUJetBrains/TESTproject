@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="cw2SDMPu">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <class>data.TESTTABLE</class>
+        <class>data.Testtable1</class>
+        <class>data.Testtable2</class>
+        <class>data.Parent1</class>
+        <class>de.mobilexag.mip.sdm.entity.MxWorkunit</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/TESTproject/ManyToMany/DB/DB"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/>
+            <property name="hibernate.connection.driver_class" value="org.hsqldb.jdbc.JDBCDriver"/>
+            <property name="hibernate.connection.username" value="SA"/>
+            <property name="hibernate.connection.password" value=""/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <!--<property name="hibernate.ejb.naming_strategy" value="ggg.MyNamingStrategy"/>-->
+            
+            <property name="hbm2ddl.auto" value="update"/>
+            <property name="hibernate.cache.use_second_level_cache" value="false"/>
+<!--            <property name="hibernate.cache.provider_class" value="org.hibernate.cache.internal.NoCachingRegionFactory"/>-->
+            <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
+            <property name="hibernate.cache.use_query_cache" value="false"/>
+            <property name="hibernate.order_inserts" value="true"/>
+            <property name="hibernate.order_updates" value="true"/>
+            <property name="hibernate.jdbc.batch_size" value="1000"/>
+            <property name="hibernate.jdbc.fetch_size" value="1000"/>
+            <property name="hibernate.default_batch_fetch_size" value="16"/>
+            <property name="hibernate.generate_statistics" value="false"/>
+        </properties>
+    </persistence-unit>
+
+
+
+    <!--<persistence-unit name="MyUnit1">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <class>dataWithoutNamingS.Testtable</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/NamingStrategyPersistenceXML/DB1/DB1"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/>
+            <property name="hibernate.connection.driver_class" value="org.hsqldb.jdbc.JDBCDriver"/>
+            <property name="hibernate.connection.username" value="SA"/>
+            <property name="hibernate.connection.password" value=""/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>-->
+</persistence>

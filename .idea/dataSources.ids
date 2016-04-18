@@ -4,10 +4,7 @@
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
   <data-source name="DB" uuid="a6108a8e-41ce-4784-bd9d-6eebb83e7a19">
-    <database-info product="HSQL Database Engine" version="2.3.2" jdbc-version="4.0" driver-name="HSQL Database Engine Driver" driver-version="2.3.2">
-      <identifier-quote-string>&quot;</identifier-quote-string>
-    </database-info>
-    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
     <schema name="INFORMATION_SCHEMA" catalog="PUBLIC"/>
     <schema name="PUBLIC" catalog="PUBLIC"/>
     <schema name="PUBLIC1" catalog="PUBLIC"/>
@@ -1134,14 +1131,25 @@
       <column name="ORDER" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
       <primary-key name="SYS_PK_10114" columns="ID"/>
     </table>
+    <table name="PARENT1" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="ID" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4"/>
+      <column name="BUGNAME" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="SYS_PK_10131" columns="ID"/>
+    </table>
     <table name="SECONDARY" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
       <column name="CUST_ID" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4"/>
       <primary-key name="SYS_PK_10124" columns="CUST_ID"/>
     </table>
+    <table name="TESTTABLE" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="ID" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4"/>
+      <column name="FIRSTNAME" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="LASTNAME" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="SYS_PK_10128" columns="ID"/>
+    </table>
     <table name="LOG" schema="PUBLIC1" catalog="PUBLIC" type="TABLE">
       <column name="ID" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="TESTFIELD" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4"/>
-      <primary-key name="SYS_PK_10129" columns="ID"/>
+      <primary-key name="SYS_PK_10135" columns="ID"/>
     </table>
     <table name="BLOCKS" schema="SYSTEM_LOBS" catalog="PUBLIC" type="TABLE">
       <column name="BLOCK_ADDR" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4"/>

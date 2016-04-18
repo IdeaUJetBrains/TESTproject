@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+    <persistence-unit name="cw2SDMPu">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+
+       <!-- <class>de.mobilexag.centerware.entity.KeyValue</class>
+        <class>de.mobilexag.centerware.entity.PropagatedMessage</class>
+        <class>de.mobilexag.centerware.entity.ResetPending</class>
+        <class>de.mobilexag.centerware.entity.ScheduledMessage</class>
+        <class>de.mobilexag.centerware.entity.ScheduledMessageQueue</class>
+        <class>de.mobilexag.centerware.entity.SyncClient</class>
+        <class>de.mobilexag.centerware.entity.SynchronizedEntity</class>
+        <class>de.mobilexag.centerware.entity.SynchronizedWorkingSetEntity</class>
+        <class>de.mobilexag.centerware.entity.WorkingSetRecord</class>
+        <class>de.mobilexag.centerware.entity.WorkingSetRecordAttribute</class>
+        <class>de.mobilexag.centerware.job.entity.Job</class>
+        <class>de.mobilexag.centerware.job.entity.JobQueue</class>
+        <class>de.mobilexag.centerware.notification.internal.entity.Notification</class>
+        <class>de.mobilexag.centerware.sync.backend.entity.AbstractCwTS</class>
+        <class>de.mobilexag.centerware.sync.backend.entity.CwTS</class>
+        <class>de.mobilexag.mip.changeTracking.entity.Journal</class>
+        <class>de.mobilexag.mip.changeTracking.entity.JournalPartnerChecklist</class>
+        <class>de.mobilexag.mip.changeTracking.entity.VJournalPartner</class>
+        <class>de.mobilexag.mip.entityRelation.entity.EntityRelation</class>
+        <class>de.mobilexag.mip.sdm.entity.MxAddress</class>
+        <class>de.mobilexag.mip.sdm.entity.MxAlternativeQualification</class>
+        <class>de.mobilexag.mip.sdm.entity.MxAssignment</class>
+        <class>de.mobilexag.mip.sdm.entity.MxAssignmentParams</class>
+        <class>de.mobilexag.mip.sdm.entity.MxAssignmentQualification</class>
+        <class>de.mobilexag.mip.sdm.entity.MxAssignmentRelation</class>
+        <class>de.mobilexag.mip.sdm.entity.MxAssignmentStatus</class>
+        <class>de.mobilexag.mip.sdm.entity.MxAssignmentTypeConfig</class>
+        <class>de.mobilexag.mip.sdm.entity.MxAssignmentWorkflowStatus</class>
+        <class>de.mobilexag.mip.sdm.entity.MxAssignmentWorkflowSubStatus</class>
+        <class>de.mobilexag.mip.sdm.entity.MxAvailabilityTime</class>
+        <class>de.mobilexag.mip.sdm.entity.MxAvailabilityTimeTypeConfig</class>
+        <class>de.mobilexag.mip.sdm.entity.MxCatalogProfile</class>
+        <class>de.mobilexag.mip.sdm.entity.MxCatalogProfileItem</class>
+        <class>de.mobilexag.mip.sdm.entity.MxCharacteristic</class>
+        <class>de.mobilexag.mip.sdm.entity.MxCharacteristicConfirmation</class>
+        <class>de.mobilexag.mip.sdm.entity.MxClientDocument</class>
+        <class>de.mobilexag.mip.sdm.entity.MxClientLocalDocument</class>
+        <class>de.mobilexag.mip.sdm.entity.MxCode</class>
+        <class>de.mobilexag.mip.sdm.entity.MxConfig</class>
+        <class>de.mobilexag.mip.sdm.entity.MxConfirmation</class>
+        <class>de.mobilexag.mip.sdm.entity.MxConfirmationList</class>
+        <class>de.mobilexag.mip.sdm.entity.MxConfirmationListItem</class>
+        <class>de.mobilexag.mip.sdm.entity.MxConfirmationReservation</class>
+        <class>de.mobilexag.mip.sdm.entity.MxContact</class>
+        <class>de.mobilexag.mip.sdm.entity.MxContactAddress</class>
+        <class>de.mobilexag.mip.sdm.entity.MxContactComm</class>
+        <class>de.mobilexag.mip.sdm.entity.MxCustomFormSubmitValue</class>
+        <class>de.mobilexag.mip.sdm.entity.MxDeliveryAddress</class>
+        <class>de.mobilexag.mip.sdm.entity.MxDocumentConfirmation</class>
+        <class>de.mobilexag.mip.sdm.entity.MxEntityAttachment</class>
+        <class>de.mobilexag.mip.sdm.entity.MxEntityParamBool</class>
+        <class>de.mobilexag.mip.sdm.entity.MxEntityParamClob</class>
+        <class>de.mobilexag.mip.sdm.entity.MxEntityParamDate</class>
+        <class>de.mobilexag.mip.sdm.entity.MxEntityParamNum</class>
+        <class>de.mobilexag.mip.sdm.entity.MxEntityParamRef</class>
+        <class>de.mobilexag.mip.sdm.entity.MxEntityParamString</class>
+        <class>de.mobilexag.mip.sdm.entity.MxFormEntry</class>
+        <class>de.mobilexag.mip.sdm.entity.MxFormEntryListItem</class>
+        <class>de.mobilexag.mip.sdm.entity.MxFormInstance</class>
+        <class>de.mobilexag.mip.sdm.entity.MxFormInstanceConfirmation</class>
+        <class>de.mobilexag.mip.sdm.entity.MxFormInstanceContext</class>
+        <class>de.mobilexag.mip.sdm.entity.MxFormInstanceContextItem</class>
+        <class>de.mobilexag.mip.sdm.entity.MxFormLibrary</class>
+        <class>de.mobilexag.mip.sdm.entity.MxFormReportDesign</class>
+        <class>de.mobilexag.mip.sdm.entity.MxFormSubmitValueMetadata</class>
+        <class>de.mobilexag.mip.sdm.entity.MxFormTemplate</class>
+        <class>de.mobilexag.mip.sdm.entity.MxHistoryHead</class>
+        <class>de.mobilexag.mip.sdm.entity.MxHistoryItem</class>
+        <class>de.mobilexag.mip.sdm.entity.MxInstallation</class>
+        <class>de.mobilexag.mip.sdm.entity.MxInstallationChangeConfirmation</class>
+        <class>de.mobilexag.mip.sdm.entity.MxInstallationPartner</class>
+        <class>de.mobilexag.mip.sdm.entity.MxInventory</class>
+        <class>de.mobilexag.mip.sdm.entity.MxLocation</class>
+        <class>de.mobilexag.mip.sdm.entity.MxLocationPartner</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMasterData</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMaterial</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMaterialConfirmation</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMaterialConsumption</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMaterialDelivery</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMaterialDeliveryBatch</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMaterialDeliveryItem</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMaterialDeliverySerial</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMaterialGroup</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMaterialOrder</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMaterialOrderItem</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMaterialReservation</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMaterialSerial</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMeasurePoint</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMeasurePointList</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMeasurePointListItem</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMeasurePointListReference</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMeasureValue</class>
+        <class>de.mobilexag.mip.sdm.entity.MxMeasureValueConfirmation</class>
+        <class>de.mobilexag.mip.sdm.entity.MxNews</class>
+        <class>de.mobilexag.mip.sdm.entity.MxNotification</class>
+        <class>de.mobilexag.mip.sdm.entity.MxNotificationActivity</class>
+        <class>de.mobilexag.mip.sdm.entity.MxNotificationCause</class>
+        <class>de.mobilexag.mip.sdm.entity.MxNotificationItem</class>
+        <class>de.mobilexag.mip.sdm.entity.MxNotificationPartner</class>
+        <class>de.mobilexag.mip.sdm.entity.MxNotificationTask</class>
+        <class>de.mobilexag.mip.sdm.entity.MxNotificationTypeConfig</class>
+        <class>de.mobilexag.mip.sdm.entity.MxObjectListItem</class>
+        <class>de.mobilexag.mip.sdm.entity.MxOrder</class>
+        <class>de.mobilexag.mip.sdm.entity.MxOrderClientDocument</class>
+        <class>de.mobilexag.mip.sdm.entity.MxOrderInstallation</class>
+        <class>de.mobilexag.mip.sdm.entity.MxOrderLocation</class>
+        <class>de.mobilexag.mip.sdm.entity.MxOrderPartner</class>
+        <class>de.mobilexag.mip.sdm.entity.MxQualification</class>
+        <class>de.mobilexag.mip.sdm.entity.MxReport</class>
+        <class>de.mobilexag.mip.sdm.entity.MxSelectionOption</class>
+        <class>de.mobilexag.mip.sdm.entity.MxStorageLocation</class>
+        <class>de.mobilexag.mip.sdm.entity.MxTenant</class>
+        <class>de.mobilexag.mip.sdm.entity.MxTenantParams</class>
+        <class>de.mobilexag.mip.sdm.entity.MxTextConfirmation</class>
+        <class>de.mobilexag.mip.sdm.entity.MxUnit</class>
+        <class>de.mobilexag.mip.sdm.entity.MxValueRange</class>-->
+
+        <class>de.mobilexag.mip.sdm.entity.MxWorkunit</class>
+
+     <!--   <class>de.mobilexag.mip.sdm.entity.MxWorkunitGroup</class>
+        <class>de.mobilexag.mip.sdm.entity.MxWorkunitInstallation</class>
+        <class>de.mobilexag.mip.sdm.entity.MxWorkunitNews</class>
+        <class>de.mobilexag.mip.sdm.entity.MxWorkunitNotification</class>
+        <class>de.mobilexag.mip.sdm.entity.MxWorkunitParams</class>
+        <class>de.mobilexag.mip.sdm.entity.MxWorkunitQualification</class>
+        <class>de.mobilexag.mip.sdm.entity.MxWorkunitStorageLocation</class>
+        <class>de.mobilexag.mip.services.entity.ClientDiagnosticUpload</class>
+        <class>de.mobilexag.mip.services.entity.SoftwareVersion</class>
+        <class>de.mobilexag.mip.services.entity.UserDownloadFile</class>
+        <class>de.mobilexag.mip.services.entity.UserDownloadFileCategory</class>
+        <class>de.mobilexag.mip.userservice.entity.Group</class>
+        <class>de.mobilexag.mip.userservice.entity.GroupRole</class>
+        <class>de.mobilexag.mip.userservice.entity.PasswordHistory</class>
+        <class>de.mobilexag.mip.userservice.entity.Permission</class>
+        <class>de.mobilexag.mip.userservice.entity.Role</class>
+        <class>de.mobilexag.mip.userservice.entity.RolePermission</class>
+        <class>de.mobilexag.mip.userservice.entity.User</class>
+        <class>de.mobilexag.mip.userservice.entity.UserGroup</class>
+        <class>de.mobilexag.mip.userservice.entity.UserRole</class>
+        <class>de.mobilexag.mip.workflowEvent.entity.WorkflowEvent</class>
+        <class>de.mobilexag.mip.workflowEvent.entity.WorkflowEventParameter</class>
+        <class>de.mobilexag.project.strabag.entities.MxChecklistConfirmation</class>
+        <class>de.mobilexag.project.strabag.entities.MxChecklistItem</class>
+        <class>de.mobilexag.project.strabag.entities.MxFaultConfigAction</class>
+        <class>de.mobilexag.project.strabag.entities.MxFaultConfigCustomer</class>
+        <class>de.mobilexag.project.strabag.entities.MxFaultConfigGroup</class>
+        <class>de.mobilexag.project.strabag.entities.MxFaultConfigPrice</class>
+        <class>de.mobilexag.project.strabag.entities.MxFaultConfigPriority</class>
+        <class>de.mobilexag.project.strabag.entities.MxFaultConfigTicketText</class>
+        <class>de.mobilexag.project.strabag.entities.MxFaultConfigTrade</class>
+        <class>de.mobilexag.project.strabag.entities.MxFaultConfigTradeSchema</class>
+        <class>de.mobilexag.project.strabag.entities.MxFaultTicket</class>
+        <class>de.mobilexag.project.strabag.entities.MxGenericConfirmation</class>
+        <class>de.mobilexag.project.strabag.entities.MxInspectionConfig</class>
+        <class>de.mobilexag.project.strabag.entities.MxInspectionData</class>
+        <class>de.mobilexag.project.strabag.entities.MxInspectionSheet</class>
+        <class>de.mobilexag.project.strabag.entities.MxInstallationClassConfig</class>
+        <class>de.mobilexag.project.strabag.entities.MxInstallationCondition</class>
+        <class>de.mobilexag.project.strabag.entities.MxInstallationConditionConfirmation</class>
+        <class>de.mobilexag.project.strabag.entities.MxInstallationPart</class>
+        <class>de.mobilexag.project.strabag.entities.MxInstallationPartConfirmation</class>
+        <class>de.mobilexag.project.strabag.entities.MxInstallationRoom</class>
+        <class>de.mobilexag.project.strabag.entities.MxInstallationSite</class>
+        <class>de.mobilexag.project.strabag.entities.MxInstallationSiteConfirmation</class>
+        <class>de.mobilexag.project.strabag.entities.MxLocationHierarchy</class>
+        <class>de.mobilexag.project.strabag.entities.MxMaintenancePackage</class>
+        <class>de.mobilexag.project.strabag.entities.MxMaterialMovement</class>
+        <class>de.mobilexag.project.strabag.entities.MxMaterialSearch</class>
+        <class>de.mobilexag.project.strabag.entities.MxMeter</class>
+        <class>de.mobilexag.project.strabag.entities.MxMeterConfigError</class>
+        <class>de.mobilexag.project.strabag.entities.MxMeterConfigSubType</class>
+        <class>de.mobilexag.project.strabag.entities.MxMeterConfigType</class>
+        <class>de.mobilexag.project.strabag.entities.MxOrderExtension</class>
+        <class>de.mobilexag.project.strabag.entities.MxStatusConfirmation</class>
+        <class>de.mobilexag.project.strabag.entities.MxSubMeter</class>
+        <class>de.mobilexag.project.strabag.entities.MxTimeOverview</class>-->
+
+        <properties>
+            <!--this part is added to the customer xml-->
+            <!--start-->
+            <property name="hibernate.connection.url" value="jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/TESTproject/ManyToMany/DB/DB"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/>
+            <property name="hibernate.connection.driver_class" value="org.hsqldb.jdbc.JDBCDriver"/>
+            <property name="hibernate.connection.username" value="SA"/>
+            <property name="hibernate.connection.password" value=""/>
+            <!--end-->
+
+            <!--<property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect"/>-->
+            <property name="hibernate.cache.use_second_level_cache" value="false"/>
+            <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
+            <property name="hibernate.cache.use_query_cache" value="false"/>
+            <property name="hibernate.order_inserts" value="true"/>
+            <property name="hibernate.order_updates" value="true"/>
+            <property name="hibernate.jdbc.batch_size" value="1000"/>
+            <property name="hibernate.jdbc.fetch_size" value="1000"/>
+            <property name="hibernate.default_batch_fetch_size" value="16"/>
+            <property name="hibernate.generate_statistics" value="false"/>
+        </properties>
+    </persistence-unit>
+</persistence>

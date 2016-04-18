@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HibernateHQLNotUpdated/HibernateHQLNotUpdated.iml" filepath="$PROJECT_DIR$/HibernateHQLNotUpdated/HibernateHQLNotUpdated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JPAConsole/JPAConsole.iml" filepath="$PROJECT_DIR$/JPAConsole/JPAConsole.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JPAConsoleHibernate4/JPAConsoleHibernate4.iml" filepath="$PROJECT_DIR$/JPAConsoleHibernate4/JPAConsoleHibernate4.iml" />
       <module fileurl="file://$PROJECT_DIR$/JPADefault/JPADefault.iml" filepath="$PROJECT_DIR$/JPADefault/JPADefault.iml" />
       <module fileurl="file://$PROJECT_DIR$/ManyToMany/ManyToMany.iml" filepath="$PROJECT_DIR$/ManyToMany/ManyToMany.iml" />
       <module fileurl="file://$PROJECT_DIR$/RefactorMoveMappingPack/RefactorMoveMappingPack.iml" filepath="$PROJECT_DIR$/RefactorMoveMappingPack/RefactorMoveMappingPack.iml" />

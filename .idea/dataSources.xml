@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3128000731">
+  <component name="DataSourceManagerImpl" format="xml" hash="2693187771">
     <data-source source="LOCAL" name="HSQLDB1" uuid="a27a7fb1-0448-4198-8376-7ea1e5b5a24d">
       <driver-ref>hsqldb.local</driver-ref>
       <synchronize>true</synchronize>
@@ -12,6 +12,9 @@
       <synchronize>true</synchronize>
       <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
       <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/ManyToMany/DB/DB</jdbc-url>
+      <driver-properties>
+        <property name="sql.ignore_case" value="false" />
+      </driver-properties>
     </data-source>
   </component>
 </project>
