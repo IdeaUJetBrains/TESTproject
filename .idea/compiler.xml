@@ -19,13 +19,15 @@
       </profile>
       <profile default="false" name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="IDEA153516" />
         <module name="SpringBatchSQLSintaxError" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="IDEA153516" target="1.5" />
       <module name="SpringBatchSQLSintaxError" target="1.8" />
     </bytecodeTargetLevel>
   </component>
