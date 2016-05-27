@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="4247946194">
+  <component name="DataSourceManagerImpl" format="xml" hash="713151560">
     <data-source source="LOCAL" name="HSQLDB1" uuid="a27a7fb1-0448-4198-8376-7ea1e5b5a24d">
       <driver-ref>hsqldb.local</driver-ref>
       <synchronize>true</synchronize>
@@ -21,6 +21,18 @@
       <auto-commit>false</auto-commit>
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@//idea-qa-temp-2:1521/xe</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="db" uuid="a9c0c76d-a9ca-40d1-8318-09ebe3fdf2e4">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/MappingToObject/db/DB</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="DB156059" uuid="3d8c4806-f566-4d20-bfc6-acac63576899">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/IDEA156059/DB/DB156059</jdbc-url>
     </data-source>
   </component>
 </project>

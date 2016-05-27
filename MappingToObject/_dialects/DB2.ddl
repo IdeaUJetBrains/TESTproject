@@ -1,0 +1,64 @@
+/*https://www.ibm.com/support/knowledgecenter/SSEPEK_10.0.0/com.ibm.db2z10.doc.intro/src/tpc/db2z_datatypes.dita*/
+CREATE TABLE String_Types_table
+(
+    V_CHARACTER CHARACTER,
+    V_VARCHAR VARCHAR(255),
+    V_CLOB CLOB,
+    V_GRAPHIC GRAPHIC,
+    V_VARGRAPHIC VARGRAPHIC(255),
+    V_DBCLOB DBCLOB(2000),
+    V_BINARY BINARY(255),
+    V_VARBINARY VARBINARY,
+    V_BLOB BLOB
+
+);
+CREATE TABLE Numeric_Types_table
+(
+    V_SMALLINT SMALLINT,
+    V_INTEGER INTEGER,
+    V_INT INT,
+    V_BIGINT BIGINT,
+    V_DECIMAL DECIMAL,
+    V_DEC DEC,
+    V_DEC12 DEC(1,2),
+    V_DEC1 DEC(1),
+    V_NUMERIC NUMERIC,
+    V_DECFLOAT DECFLOAT,
+    V_REAL REAL,
+    V_DOUBLE DOUBLE
+);
+CREATE TABLE Date_Time_Timestamp_Types_table
+(
+    V_DATE DATE,
+    V_TIME TIME,
+    V_TIMESTAMP TIMESTAMP,
+    V_TIMESTAME_WITHOUT_TIME_ZONE TIMESTAMP(0) WITHOUT TIME ZONE,
+    V_TIMESTAME_WITH_TIME_ZONE TIMESTAMP(0) WITH TIME ZONE
+);
+
+CREATE TABLE XML_Types_table
+(
+    V_XML XML
+    /*V_XMLSCHEMA XMLSCHEMA */
+);
+
+
+CREATE TABLE Large_Object_Types_table
+(
+  V_ROWID ROWID
+);
+
+/*this example is on the official site: https://www.ibm.com/support/knowledgecenter/SSEPEK_10.0.0/com.ibm.db2z10.doc.intro/src/tpc/db2z_distincttypes.dita*/
+CREATE DISTINCT TYPE US_DOLLAR AS DECIMAL (9,2);
+CREATE DISTINCT TYPE CANADIAN_DOLLAR AS DECIMAL (9,2);
+
+CREATE TABLE US_SALES
+(PRODUCT_ITEM_NO INTEGER,
+ MONTH           INTEGER,
+ YEAR            INTEGER,
+ TOTAL_AMOUNT    US_DOLLAR);
+CREATE TABLE CANADIAN_SALES
+(PRODUCT_ITEM_NO INTEGER,
+ MONTH           INTEGER,
+ YEAR            INTEGER,
+ TOTAL_AMOUNT    CANADIAN_DOLLAR);

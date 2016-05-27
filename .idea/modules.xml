@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HibernateHQLNotUpdated/HibernateHQLNotUpdated.iml" filepath="$PROJECT_DIR$/HibernateHQLNotUpdated/HibernateHQLNotUpdated.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA153516/IDEA153516.iml" filepath="$PROJECT_DIR$/IDEA153516/IDEA153516.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IDEA156059/IDEA156059.iml" filepath="$PROJECT_DIR$/IDEA156059/IDEA156059.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA156359/IDEA156359.iml" filepath="$PROJECT_DIR$/IDEA156359/IDEA156359.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAXRS_IDEA153587/JAXRS_IDEA153587.iml" filepath="$PROJECT_DIR$/JAXRS_IDEA153587/JAXRS_IDEA153587.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAXRS_IDEA154093/JAXRS_IDEA154093.iml" filepath="$PROJECT_DIR$/JAXRS_IDEA154093/JAXRS_IDEA154093.iml" />
@@ -11,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/JPAConsoleHibernate4/JPAConsoleHibernate4.iml" filepath="$PROJECT_DIR$/JPAConsoleHibernate4/JPAConsoleHibernate4.iml" />
       <module fileurl="file://$PROJECT_DIR$/JPADefault/JPADefault.iml" filepath="$PROJECT_DIR$/JPADefault/JPADefault.iml" />
       <module fileurl="file://$PROJECT_DIR$/ManyToMany/ManyToMany.iml" filepath="$PROJECT_DIR$/ManyToMany/ManyToMany.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MappingToObject/MappingToObject.iml" filepath="$PROJECT_DIR$/MappingToObject/MappingToObject.iml" />
       <module fileurl="file://$PROJECT_DIR$/RefactorMoveMappingPack/RefactorMoveMappingPack.iml" filepath="$PROJECT_DIR$/RefactorMoveMappingPack/RefactorMoveMappingPack.iml" />
       <module fileurl="file://$PROJECT_DIR$/RefactorMoveMappingPackSpring/RefactorMoveMappingPackSpring.iml" filepath="$PROJECT_DIR$/RefactorMoveMappingPackSpring/RefactorMoveMappingPackSpring.iml" />
       <module fileurl="file://$PROJECT_DIR$/SQLQueryWithSpecialSigns/SQLQueryWithSpecialSigns.iml" filepath="$PROJECT_DIR$/SQLQueryWithSpecialSigns/SQLQueryWithSpecialSigns.iml" />
