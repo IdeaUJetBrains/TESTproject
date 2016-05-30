@@ -7,10 +7,11 @@ import java.util.Collection;
  * Created by Olga Pavlova on 5/27/2016.
  */
 @Entity
-public class Driver {
+@Table(name = "DRIVER")
+public class Driver1 {
     private int id;
     private String drivername;
-    private Collection<Buss> bussesById;
+    private Collection<Buss1> busses1ById;
 
     @Id
     @Column(name = "ID", nullable = false)
@@ -37,7 +38,7 @@ public class Driver {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Driver driver = (Driver) o;
+        Driver1 driver = (Driver1) o;
 
         if (id != driver.id) return false;
         if (drivername != null ? !drivername.equals(driver.drivername) : driver.drivername != null) return false;
@@ -53,11 +54,11 @@ public class Driver {
     }
 
     @OneToMany(mappedBy = "driverByDriverid")
-    public Collection<Buss> getBussesById() {
-        return bussesById;
+    public Collection<Buss1> getBusses1ById() {
+        return busses1ById;
     }
 
-    public void setBussesById(Collection<Buss> bussesById) {
-        this.bussesById = bussesById;
+    public void setBusses1ById(Collection<Buss1> bussesById) {
+        this.busses1ById = bussesById;
     }
 }

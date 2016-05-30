@@ -40,6 +40,7 @@ public class HibernateUtil {
     }*/
 
     public static void shutdown() {
+
         session.close();
     }
 
