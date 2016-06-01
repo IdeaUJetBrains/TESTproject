@@ -4,15 +4,19 @@
     <persistence-unit name="NewPersistenceUnit">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <class>IDEA149449.Convertertest</class>
+        <class>IDEA149449.RectangleEntity</class>
         <properties>
-            <property name="hibernate.connection.url" value="jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/TESTproject/IDEA156059/DB/DB156059"/>
+            <property name="hibernate.connection.url"
+                      value="jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/TESTproject/IDEA156059/DB/DB156059"/>
             <property name="hibernate.connection.driver_class" value="org.hsqldb.jdbc.JDBCDriver"/>
-            <property name="hibernate.connection.username"/>
-            <property name="hibernate.connection.password"/>
+            <property name="hibernate.connection.username" value="sa"/>
+            <property name="hibernate.connection.password" value=""/>
             <property name="hibernate.archive.autodetection" value="class"/>
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>
-            <property name="hbm2ddl.auto" value="update"/>
+            <property name="hbm2ddl.auto" value="validate"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/>
+
         </properties>
     </persistence-unit>
 </persistence>
