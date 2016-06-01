@@ -7,11 +7,13 @@
     <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/H2.ddl" dialect="H2" />
     <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/HSQLDB.ddl" dialect="HSQLDB" />
     <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/MySQL.ddl" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/Oracle_NVARCHAR2.ddl" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/PostgaSQL.ddl" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/SQL92.ddl" dialect="SQL92" />
     <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/SQLServer2008.ddl" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/Sqlite.ddl" dialect="SQLite" />
     <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/Sybase.ddl" dialect="Sybase" />
+    <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/allMappingToObject/Mapping_To_Object_Oracle.ddl" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/oracleAll.ddl" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/oraclePlusSQL.ddl" dialect="OracleSqlPlus" />
     <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/oracle_test.ddl" dialect="Oracle" />

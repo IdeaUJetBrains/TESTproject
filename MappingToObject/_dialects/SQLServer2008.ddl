@@ -16,6 +16,7 @@ CREATE TABLE Numeric_Types_table
     V_Smalldatetime Smalldatetime,
     V_Datetime2 Datetime2,
     V_Datetimeoffset Datetimeoffset,
+    V_DATE DATE,
     V_Char Char,
     V_FVarchar Varchar,
     V_Text Text,
