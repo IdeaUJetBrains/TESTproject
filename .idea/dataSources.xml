@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="673830060">
+  <component name="DataSourceManagerImpl" format="xml" hash="3593903497">
     <data-source source="LOCAL" name="HSQLDB1" uuid="a27a7fb1-0448-4198-8376-7ea1e5b5a24d">
       <driver-ref>hsqldb.local</driver-ref>
       <synchronize>true</synchronize>
@@ -33,6 +33,12 @@
       <synchronize>true</synchronize>
       <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
       <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/IDEA156059/DB/DB156059</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - DOCKERDB@192.168.99.100" uuid="22fb41a0-1ad8-4633-a132-447126b0dd83">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.99.100:15437/DOCKERDB</jdbc-url>
     </data-source>
   </component>
 </project>
