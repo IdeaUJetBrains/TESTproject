@@ -4,12 +4,11 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import util.HibernateUtil;
 
-//import groovy.sql.Date;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
-//import java.sql.Date;
+
 
 /**
  * Created by Olga Pavlova on 6/2/2016.
