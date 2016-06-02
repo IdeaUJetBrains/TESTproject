@@ -15,7 +15,7 @@ public class TestMain {
         int queryInt = session.createQuery("update PrintTransaction pt set pt.dataFile = empty_blob() " +
                 "where pt.id = :pt ").setParameter("pt", 1).executeUpdate();
 
-        System.out.println("queryInt" + queryInt);
+        System.out.println("queryInt: " + queryInt);
 
     }
 
