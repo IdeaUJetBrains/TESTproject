@@ -5,9 +5,11 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
-//TODO  in Bug: SELECT Publication FROM Testidea15537 AS c WHERE c.enamelId = 323 ORDER BY c.publication.year
-//TODO should be: SELECT c.publication FROM Testidea15537 AS c WHERE c.enamelId = 323 ORDER BY c.publication.year
-
+/**TODO runs with the exception in Hibernate console:
+ *SELECT Publication FROM Testidea15537 AS c WHERE c.enamelId = 323 ORDER BY c.publication.year
+ *TODO runs OK:
+ *SELECT c.publication FROM Testidea15537 AS c WHERE c.enamelId = 323 ORDER BY c.publication.year
+*/
 @Entity
 public class Testidea15537 {
     private int id;
