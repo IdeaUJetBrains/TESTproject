@@ -10,10 +10,10 @@
     <property name="connection.password"></property>
     <!--<property name="hibernate.hbm2ddl.auto">validate</property>-->
 
-    <mapping class="result156059WithFields.Buss" />
-    <mapping class="result156059WithFields.Driver" />
-    <mapping class="result156059WithFields.AbstractBuss" />
-    <mapping class="IDEA156442.Test" />
+    <!--<mapping class="result156059WithFields.Buss" />-->
+    <!--<mapping class="result156059WithFields.Driver" />-->
+    <!--<mapping class="result156059WithFields.AbstractBuss" />-->
+    <!--<mapping class="IDEA156442.Test" />-->
     <!-- DB schema will be updated if needed -->
     <!-- <property name="hbm2ddl.auto">update</property> -->
     <!--<mapping class="result156059WithProperties.Buss" />-->
@@ -21,8 +21,11 @@
     <!--<mapping class="result156059WithProperties.AbstractBuss" />-->
     <!--<mapping class="withoutInheritance.Buss" />-->
     <!--<mapping class="withoutInheritance.Driver" />-->
-    <mapping class="test.CreditCardPayment"/>
-    <mapping class="test.Payment" />
+    <!--<mapping class="test.CreditCardPayment"/>-->
+    <!--<mapping class="test.Payment" />-->
+    <mapping class="IDEA155378.Testidea15537" />
+    <mapping class="IDEA155378.Publication" />
+    <mapping class="IDEA155378.Enamel" />
 
   </session-factory>
 </hibernate-configuration>

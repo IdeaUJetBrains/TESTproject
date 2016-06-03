@@ -6,13 +6,16 @@
         <class>result156059WithProperties.Buss</class>
         <class>result156059WithProperties.Driver</class>
         <class>result156059WithProperties.AbstractBuss</class>
-        <class>withoutInheritance.Buss</class>
-        <class>withoutInheritance.Driver</class>
+        <!--<class>withoutInheritance.Buss1</class>-->
+        <!--<class>withoutInheritance.Driver1</class>-->
+        <class>IDEA155378.Enamel</class>
+        <class>IDEA155378.Publication</class>
+        <class>IDEA155378.Testidea15537</class>
         <properties>
             <property name="hibernate.connection.url" value="jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/TESTproject/IDEA156059/DB/DB156059"/>
             <property name="hibernate.connection.driver_class" value="org.hsqldb.jdbc.JDBCDriver"/>
-            <property name="hibernate.connection.username"/>
-            <property name="hibernate.connection.password"/>
+            <property name="hibernate.connection.username" value="sa"/>
+            <property name="hibernate.connection.password" value=""/>
             <property name="hibernate.archive.autodetection" value="class"/>
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>

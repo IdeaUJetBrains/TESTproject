@@ -2,8 +2,8 @@ package result156059WithProperties;
 
 import javax.persistence.*;
 
-@Entity
-//@MappedSuperclass
+//@Entity
+@MappedSuperclass
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public abstract class AbstractBuss {
     private int id;
