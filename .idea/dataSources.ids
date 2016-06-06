@@ -55,7 +55,7 @@
         <created-timestamp>2015-02-16.15:06:47</created-timestamp>
         <modified-timestamp>2016-06-02.16:55:08</modified-timestamp>
         <visible>1</visible>
-        <introspection-timestamp>2016-06-02.16:55:22</introspection-timestamp>
+        <introspection-timestamp>2016-06-03.14:47:19</introspection-timestamp>
       </schema>
       <schema id="15" name="BUILDAGENT">
         <object-id>54</object-id>
@@ -1744,184 +1744,197 @@ CB2</desc-columns>
       <table id="10" parent="2" name="ENAMEL"/>
       <table id="11" parent="2" name="HIBERNATE_SEQUENCES"/>
       <table id="12" parent="2" name="IDEA156442"/>
-      <table id="13" parent="2" name="PERSON"/>
-      <table id="14" parent="2" name="PUBLICATION"/>
-      <table id="15" parent="2" name="RECTANGLEENTITY"/>
-      <table id="16" parent="2" name="TESTIDEA15537"/>
-      <column id="17" parent="5" name="ID">
+      <table id="13" parent="2" name="IDEA79247"/>
+      <table id="14" parent="2" name="PERSON"/>
+      <table id="15" parent="2" name="PUBLICATION"/>
+      <table id="16" parent="2" name="RECTANGLEENTITY"/>
+      <table id="17" parent="2" name="TESTIDEA15537"/>
+      <column id="18" parent="5" name="ID">
         <mandatory>1</mandatory>
         <data-type>INTEGER(32)|4</data-type>
       </column>
-      <column id="18" parent="5" name="ACCOUNT">
+      <column id="19" parent="5" name="ACCOUNT">
         <data-type>INTEGER(32)|4</data-type>
       </column>
-      <key id="19" parent="5" name="SYS_PK_10091">
+      <key id="20" parent="5" name="SYS_PK_10091">
         <name-surrogate>1</name-surrogate>
         <columns>ID</columns>
         <primary>1</primary>
       </key>
-      <column id="20" parent="6" name="ID">
+      <column id="21" parent="6" name="ID">
         <mandatory>1</mandatory>
         <data-type>INTEGER(32)|4</data-type>
       </column>
-      <column id="21" parent="6" name="BUSSNAME">
+      <column id="22" parent="6" name="BUSSNAME">
         <data-type>VARCHAR(255)|12</data-type>
       </column>
-      <column id="22" parent="6" name="DRIVERID">
+      <column id="23" parent="6" name="DRIVERID">
         <data-type>INTEGER(32)|4</data-type>
       </column>
-      <key id="23" parent="6" name="SYS_PK_10098">
+      <key id="24" parent="6" name="SYS_PK_10098">
         <name-surrogate>1</name-surrogate>
         <columns>ID</columns>
         <primary>1</primary>
       </key>
-      <foreign-key id="24" parent="6" name="FK_7BYHBX71XTSI6PHO5C7885L5O">
+      <foreign-key id="25" parent="6" name="FK_7BYHBX71XTSI6PHO5C7885L5O">
         <columns>DRIVERID</columns>
         <deferrable>1</deferrable>
         <ref-key>~.DRIVER.SYS_PK_10108</ref-key>
         <cascade-update-rule>no_action</cascade-update-rule>
         <cascade-delete-rule>no_action</cascade-delete-rule>
       </foreign-key>
-      <column id="25" parent="7" name="ID">
+      <column id="26" parent="7" name="ID">
         <mandatory>1</mandatory>
         <data-type>INTEGER(32)|4</data-type>
       </column>
-      <column id="26" parent="7" name="TIMETEST">
+      <column id="27" parent="7" name="TIMETEST">
         <data-type>TIMESTAMP(26)|93</data-type>
       </column>
-      <key id="27" parent="7" name="SYS_PK_10117">
+      <key id="28" parent="7" name="SYS_PK_10117">
         <name-surrogate>1</name-surrogate>
         <columns>ID</columns>
         <primary>1</primary>
       </key>
-      <column id="28" parent="8" name="PAYMENT_ID">
+      <column id="29" parent="8" name="PAYMENT_ID">
         <mandatory>1</mandatory>
         <data-type>INTEGER(32)|4</data-type>
       </column>
-      <column id="29" parent="8" name="AMOUNT">
+      <column id="30" parent="8" name="AMOUNT">
         <mandatory>1</mandatory>
         <data-type>DOUBLE(64)|8</data-type>
       </column>
-      <column id="30" parent="8" name="CREDITCARDTYPE">
+      <column id="31" parent="8" name="CREDITCARDTYPE">
         <data-type>VARCHAR(255)|12</data-type>
       </column>
-      <key id="31" parent="8" name="SYS_PK_10102">
+      <key id="32" parent="8" name="SYS_PK_10102">
         <name-surrogate>1</name-surrogate>
         <columns>PAYMENT_ID</columns>
         <primary>1</primary>
       </key>
-      <column id="32" parent="9" name="ID">
+      <column id="33" parent="9" name="ID">
         <mandatory>1</mandatory>
         <data-type>INTEGER(32)|4</data-type>
       </column>
-      <column id="33" parent="9" name="DRIVERNAME">
+      <column id="34" parent="9" name="DRIVERNAME">
         <data-type>VARCHAR(255)|12</data-type>
       </column>
-      <key id="34" parent="9" name="SYS_PK_10108">
+      <key id="35" parent="9" name="SYS_PK_10108">
         <name-surrogate>1</name-surrogate>
         <columns>ID</columns>
         <primary>1</primary>
       </key>
-      <column id="35" parent="10" name="ID">
+      <column id="36" parent="10" name="ID">
         <mandatory>1</mandatory>
         <data-type>INTEGER(32)|4</data-type>
       </column>
-      <key id="36" parent="10" name="ENAMEL_ID_PK">
+      <key id="37" parent="10" name="ENAMEL_ID_PK">
         <columns>ID</columns>
         <primary>1</primary>
       </key>
-      <column id="37" parent="11" name="SEQUENCE_NAME">
+      <column id="38" parent="11" name="SEQUENCE_NAME">
         <data-type>VARCHAR(255)|12</data-type>
       </column>
-      <column id="38" parent="11" name="SEQUENCE_NEXT_HI_VALUE">
+      <column id="39" parent="11" name="SEQUENCE_NEXT_HI_VALUE">
         <data-type>INTEGER(32)|4</data-type>
       </column>
-      <column id="39" parent="12" name="SOME_ID">
+      <column id="40" parent="12" name="SOME_ID">
         <mandatory>1</mandatory>
         <data-type>INTEGER(32)|4</data-type>
       </column>
-      <column id="40" parent="12" name="SOME_TEXT">
+      <column id="41" parent="12" name="SOME_TEXT">
         <data-type>VARCHAR(255)|12</data-type>
       </column>
-      <column id="41" parent="12" name="SOME_DATE">
+      <column id="42" parent="12" name="SOME_DATE">
         <data-type>DATE(10)|91</data-type>
       </column>
-      <key id="42" parent="12" name="SYS_PK_10121">
+      <key id="43" parent="12" name="SYS_PK_10121">
         <name-surrogate>1</name-surrogate>
         <columns>SOME_ID</columns>
         <primary>1</primary>
       </key>
-      <column id="43" parent="13" name="ID">
+      <column id="44" parent="13" name="ID">
         <mandatory>1</mandatory>
         <data-type>INTEGER(32)|4</data-type>
       </column>
-      <column id="44" parent="13" name="ACCOUNTID">
-        <data-type>INTEGER(32)|4</data-type>
+      <column id="45" parent="13" name="TESTCHAR">
+        <data-type>VARCHAR(255)|12</data-type>
       </column>
-      <key id="45" parent="13" name="SYS_PK_10093">
+      <key id="46" parent="13" name="SYS_PK_10135">
         <name-surrogate>1</name-surrogate>
         <columns>ID</columns>
         <primary>1</primary>
       </key>
-      <foreign-key id="46" parent="13" name="PERSON_ACCOUNT_ID_FK">
+      <column id="47" parent="14" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>INTEGER(32)|4</data-type>
+      </column>
+      <column id="48" parent="14" name="ACCOUNTID">
+        <data-type>INTEGER(32)|4</data-type>
+      </column>
+      <key id="49" parent="14" name="SYS_PK_10093">
+        <name-surrogate>1</name-surrogate>
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="50" parent="14" name="PERSON_ACCOUNT_ID_FK">
         <columns>ACCOUNTID</columns>
         <deferrable>1</deferrable>
         <ref-key>~.ACCOUNT.SYS_PK_10091</ref-key>
         <cascade-update-rule>no_action</cascade-update-rule>
         <cascade-delete-rule>no_action</cascade-delete-rule>
       </foreign-key>
-      <column id="47" parent="14" name="ID">
+      <column id="51" parent="15" name="ID">
         <mandatory>1</mandatory>
         <data-type>INTEGER(32)|4</data-type>
       </column>
-      <column id="48" parent="14" name="YEAR">
+      <column id="52" parent="15" name="YEAR">
         <data-type>DATE(10)|91</data-type>
       </column>
-      <key id="49" parent="14" name="PUBLICATION_ID_PK">
+      <key id="53" parent="15" name="PUBLICATION_ID_PK">
         <columns>ID</columns>
         <primary>1</primary>
       </key>
-      <column id="50" parent="15" name="ID">
+      <column id="54" parent="16" name="ID">
         <mandatory>1</mandatory>
         <data-type>INTEGER(32)|4</data-type>
       </column>
-      <column id="51" parent="15" name="X">
+      <column id="55" parent="16" name="X">
         <data-type>INTEGER(32)|4</data-type>
       </column>
-      <column id="52" parent="15" name="Y">
+      <column id="56" parent="16" name="Y">
         <data-type>INTEGER(32)|4</data-type>
       </column>
-      <column id="53" parent="15" name="COLOR">
+      <column id="57" parent="16" name="COLOR">
         <data-type>BOOLEAN(0)|16</data-type>
       </column>
-      <key id="54" parent="15" name="SYS_PK_10113">
+      <key id="58" parent="16" name="SYS_PK_10113">
         <name-surrogate>1</name-surrogate>
         <columns>ID</columns>
         <primary>1</primary>
       </key>
-      <column id="55" parent="16" name="ID">
+      <column id="59" parent="17" name="ID">
         <mandatory>1</mandatory>
         <data-type>INTEGER(32)|4</data-type>
       </column>
-      <column id="56" parent="16" name="PUB_ID">
+      <column id="60" parent="17" name="PUB_ID">
         <data-type>INTEGER(32)|4</data-type>
       </column>
-      <column id="57" parent="16" name="PIECE_AKA">
+      <column id="61" parent="17" name="PIECE_AKA">
         <data-type>INTEGER(32)|4</data-type>
       </column>
-      <key id="58" parent="16" name="SYS_PK_10128">
+      <key id="62" parent="17" name="SYS_PK_10125">
         <name-surrogate>1</name-surrogate>
         <columns>ID</columns>
         <primary>1</primary>
       </key>
-      <foreign-key id="59" parent="16" name="TESTIDEA15537_PUBLICATION_ID_FK">
+      <foreign-key id="63" parent="17" name="TESTIDEA15537_PUBLICATION_ID_FK">
         <columns>PUB_ID</columns>
         <deferrable>1</deferrable>
         <ref-key>~.PUBLICATION.PUBLICATION_ID_PK</ref-key>
         <cascade-update-rule>no_action</cascade-update-rule>
         <cascade-delete-rule>no_action</cascade-delete-rule>
       </foreign-key>
-      <foreign-key id="60" parent="16" name="TESTIDEA15537_ENAMEL_ID_FK">
+      <foreign-key id="64" parent="17" name="TESTIDEA15537_ENAMEL_ID_FK">
         <columns>PIECE_AKA</columns>
         <deferrable>1</deferrable>
         <ref-key>~.ENAMEL.ENAMEL_ID_PK</ref-key>
@@ -1946,8 +1959,8 @@ CB2</desc-columns>
       <schema id="3" parent="1" name="public">
         <object-id>2200</object-id>
         <visible>1</visible>
-        <introspection-state-number>561</introspection-state-number>
-        <introspection-timestamp>2016-06-02.10:07:26.253</introspection-timestamp>
+        <introspection-state-number>566</introspection-state-number>
+        <introspection-timestamp>2016-06-03.14:22:22.022</introspection-timestamp>
       </schema>
       <schema id="4" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -1968,33 +1981,162 @@ CB2</desc-columns>
         <object-id>16386</object-id>
         <state-number>554</state-number>
       </sequence>
-      <table id="10" parent="3" name="test">
+      <table id="10" parent="3" name="MxWorkunit">
+        <object-id>16397</object-id>
+        <state-number>566</state-number>
+      </table>
+      <table id="11" parent="3" name="test">
         <object-id>16388</object-id>
         <state-number>561</state-number>
       </table>
-      <column id="11" parent="10" name="some_id">
+      <column id="12" parent="10" name="column_1">
+        <state-number>565</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+      </column>
+      <index id="13" parent="10" name="mxworkunit_pkey">
+        <object-id>16400</object-id>
+        <columns>column_1</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="14" parent="10" name="mxworkunit_pkey">
+        <columns>column_1</columns>
+        <underlying-index>mxworkunit_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="15" parent="11" name="some_id">
         <state-number>554</state-number>
         <mandatory>1</mandatory>
         <data-type>integer|0</data-type>
         <default-expression>nextval(&apos;test_some_id_seq&apos;::regclass)</default-expression>
       </column>
-      <column id="12" parent="10" name="some_text">
+      <column id="16" parent="11" name="some_text">
         <state-number>554</state-number>
         <data-type>text|0</data-type>
       </column>
-      <column id="13" parent="10" name="some_date">
+      <column id="17" parent="11" name="some_date">
         <state-number>561</state-number>
         <data-type>date|0</data-type>
       </column>
-      <index id="14" parent="10" name="test_pkey">
+      <index id="18" parent="11" name="test_pkey">
         <object-id>16395</object-id>
         <columns>some_id</columns>
         <desc-columns></desc-columns>
         <unique>1</unique>
       </index>
-      <key id="15" parent="10" name="test_pkey">
+      <key id="19" parent="11" name="test_pkey">
         <columns>some_id</columns>
         <underlying-index>test_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+  <data-source name="MySQL - crm@localhost driver - DB@localhost" uuid="4d134f14-0325-482a-9618-7a61ecab046a">
+    <database-info product="MySQL" version="5.7.11-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="db">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="information_schema"/>
+      <schema id="3" name="mysql"/>
+      <schema id="4" name="performance_schema"/>
+      <schema id="5" name="sakila"/>
+      <schema id="6" name="sys"/>
+      <schema id="7" name="world"/>
+      <table id="8" parent="1" name="bank_account"/>
+      <table id="9" parent="1" name="bussdrivers"/>
+      <table id="10" parent="1" name="bussdrivers1"/>
+      <table id="11" parent="1" name="busses"/>
+      <table id="12" parent="1" name="drivers"/>
+      <table id="13" parent="1" name="mxworkunit"/>
+      <column id="14" parent="8" name="ACCOUNTNUMBER">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="15" parent="8" name="AMOUNT">
+        <data-type>double|0</data-type>
+      </column>
+      <column id="16" parent="8" name="Location">
+        <data-type>geometry|0</data-type>
+      </column>
+      <column id="17" parent="8" name="datetype">
+        <data-type>date|0</data-type>
+      </column>
+      <column id="18" parent="8" name="datetime">
+        <data-type>datetime|0</data-type>
+      </column>
+      <key id="19" parent="8" name="PRIMARY">
+        <columns>ACCOUNTNUMBER</columns>
+        <primary>1</primary>
+      </key>
+      <column id="20" parent="9" name="BUSSID">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="21" parent="9" name="DRIVERID">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="22" parent="9" name="column_3">
+        <data-type>date|0</data-type>
+      </column>
+      <column id="23" parent="10" name="BUSSID">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="24" parent="10" name="DRIVERID">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <index id="25" parent="10" name="BUSSID">
+        <columns>BUSSID</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="26" parent="10" name="DRIVERID">
+        <columns>DRIVERID</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <foreign-key id="27" parent="10" name="bussdrivers1_ibfk_1">
+        <columns>BUSSID</columns>
+        <ref-key>~.drivers.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="28" parent="10" name="bussdrivers1_ibfk_2">
+        <columns>DRIVERID</columns>
+        <ref-key>~.busses.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="29" parent="11" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="30" parent="11" name="BUSS">
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <key id="31" parent="11" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="32" parent="12" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="33" parent="12" name="BUSS">
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <key id="34" parent="12" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="35" parent="13" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <key id="36" parent="13" name="PRIMARY">
+        <columns>id</columns>
         <primary>1</primary>
       </key>
     </database-model>

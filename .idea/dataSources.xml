@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1878817978">
+  <component name="DataSourceManagerImpl" format="xml" hash="581002178">
     <data-source source="LOCAL" name="HSQLDB1" uuid="a27a7fb1-0448-4198-8376-7ea1e5b5a24d">
       <driver-ref>hsqldb.local</driver-ref>
       <synchronize>true</synchronize>
@@ -39,6 +39,20 @@
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://192.168.99.100:15437/DOCKERDB</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="MySQL - crm@localhost driver - DB@localhost" uuid="4d134f14-0325-482a-9618-7a61ecab046a">
+      <driver-ref>361c4c1e-d6ea-4564-98a1-fb0278afe67f</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/DB</jdbc-url>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+        <property name="lower_case_table_names" value="0" />
+      </driver-properties>
     </data-source>
   </component>
 </project>
