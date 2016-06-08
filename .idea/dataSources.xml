@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="581002178">
+  <component name="DataSourceManagerImpl" format="xml" hash="569468895">
     <data-source source="LOCAL" name="HSQLDB1" uuid="a27a7fb1-0448-4198-8376-7ea1e5b5a24d">
       <driver-ref>hsqldb.local</driver-ref>
       <synchronize>true</synchronize>
@@ -53,6 +53,19 @@
         <property name="yearIsDateType" value="false" />
         <property name="lower_case_table_names" value="0" />
       </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Derby (Remote) - guest@qa-vmws-xp" uuid="a68c3742-ba63-4fe6-95de-33fa8b46469c">
+      <driver-ref>derby.remote</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.apache.derby.jdbc.ClientDriver</jdbc-driver>
+      <jdbc-url>jdbc:derby://qa-vmws-xp:8478/guest;user=guest;password=guest</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Oracle - @qa-vmws-xp" uuid="e98c6432-0181-414c-9e30-729259b80ed9">
+      <driver-ref>oracle</driver-ref>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//qa-vmws-xp:1521/xe</jdbc-url>
     </data-source>
   </component>
 </project>

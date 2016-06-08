@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HibernateHQLNotUpdated/HibernateHQLNotUpdated.iml" filepath="$PROJECT_DIR$/HibernateHQLNotUpdated/HibernateHQLNotUpdated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IDEA109803/IDEA109803.iml" filepath="$PROJECT_DIR$/IDEA109803/IDEA109803.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IDEA146324/IDEA146324.iml" filepath="$PROJECT_DIR$/IDEA146324/IDEA146324.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA147985/IDEA147985.iml" filepath="$PROJECT_DIR$/IDEA147985/IDEA147985.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA149449/IDEA149449.iml" filepath="$PROJECT_DIR$/IDEA149449/IDEA149449.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA153516/IDEA153516.iml" filepath="$PROJECT_DIR$/IDEA153516/IDEA153516.iml" />
@@ -10,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/IDEA156059/IDEA156059.iml" filepath="$PROJECT_DIR$/IDEA156059/IDEA156059.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA156359/IDEA156359.iml" filepath="$PROJECT_DIR$/IDEA156359/IDEA156359.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA156442/IDEA156442.iml" filepath="$PROJECT_DIR$/IDEA156442/IDEA156442.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IDEA43174/IDEA43174.iml" filepath="$PROJECT_DIR$/IDEA43174/IDEA43174.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA79247/IDEA79247.iml" filepath="$PROJECT_DIR$/IDEA79247/IDEA79247.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAXRS_IDEA153587/JAXRS_IDEA153587.iml" filepath="$PROJECT_DIR$/JAXRS_IDEA153587/JAXRS_IDEA153587.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAXRS_IDEA154093/JAXRS_IDEA154093.iml" filepath="$PROJECT_DIR$/JAXRS_IDEA154093/JAXRS_IDEA154093.iml" />

@@ -1,0 +1,10 @@
+https://confluence.jetbrains.com/display/DBEINT/0xDBE+Testing+Rig
+
+CREATE TABLE GUEST.IDEA146324@qa.vmws.xp
+(
+  ID int PRIMARY KEY IDENTITY,
+  BUSS varchar(255)
+);
+
+
+CREATE PUBLIC SYNONYM testsyn FOR GUEST.IDEA146324@qa.vmws.xp;
