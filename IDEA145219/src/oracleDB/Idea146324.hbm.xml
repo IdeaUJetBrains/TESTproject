@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="oracleDB.Idea146324" table="IDEA146324" schema="GUEST">
+        <id name="id">
+            <column name="ID" sql-type="number(*)" precision="2147483646"/>
+        </id>
+        <property name="col1">
+            <column name="COL1" sql-type="number(*)" precision="2147483646" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

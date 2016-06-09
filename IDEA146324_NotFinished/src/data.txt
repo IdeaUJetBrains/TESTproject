@@ -1,0 +1,16 @@
+https://confluence.jetbrains.com/display/DBEINT/0xDBE+Testing+Rig
+
+CREATE TABLE GUEST.IDEA146324
+(
+  ID NUMBER(*) PRIMARY KEY IDENTITY,
+  COL1 NUMBER(*) DEFAULT NULL
+);
+
+//todo Result: insufficient privileges
+GRANT CREATE SYNONYM TO quest;
+CREATE SYNONYM testsyn FOR GUEST.IDEA146324;
+
+//todo Result: feature not enabled: Advanced replication
+//todo Closed Connection
+CREATE MATERIALIZED VIEW LOG ON GUEST.IDEA146324
+WITH PRIMARY KEY, ROWID;
