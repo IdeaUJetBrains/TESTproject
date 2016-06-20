@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="158886891">
+  <component name="DataSourceManagerImpl" format="xml" hash="4227526802">
     <data-source source="LOCAL" name="HSQLDB1" uuid="a27a7fb1-0448-4198-8376-7ea1e5b5a24d">
       <driver-ref>hsqldb.local</driver-ref>
       <synchronize>true</synchronize>
@@ -66,6 +66,20 @@
       <auto-commit>false</auto-commit>
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@//qa-vmws-xp:1521/xe</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="MySQL - DOCKERDB@192.168.99.100" uuid="0a9d8023-296b-4f98-8f7b-ebb732ef7712">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.99.100:13306/DOCKERDB</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
     </data-source>
   </component>
 </project>

@@ -4,9 +4,7 @@ import util.HibernateUtil;
 
 import java.util.List;
 
-/**
- * Created by Olga Pavlova on 6/6/2016.
- */
+
 public class TestMain {
 
     public static void main(String[] argv) {

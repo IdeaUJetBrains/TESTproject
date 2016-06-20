@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HibernateHQLNotUpdated/HibernateHQLNotUpdated.iml" filepath="$PROJECT_DIR$/HibernateHQLNotUpdated/HibernateHQLNotUpdated.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA109803/IDEA109803.iml" filepath="$PROJECT_DIR$/IDEA109803/IDEA109803.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IDEA128307/IDEA128307.iml" filepath="$PROJECT_DIR$/IDEA128307/IDEA128307.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA128886/IDEA128886.iml" filepath="$PROJECT_DIR$/IDEA128886/IDEA128886.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IDEA144238/IDEA144238.iml" filepath="$PROJECT_DIR$/IDEA144238/IDEA144238.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA145144SpringBoot/IDEA145144SpringBoot.iml" filepath="$PROJECT_DIR$/IDEA145144SpringBoot/IDEA145144SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA145219/IDEA145219.iml" filepath="$PROJECT_DIR$/IDEA145219/IDEA145219.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA146324_NotFinished/IDEA146324.iml" filepath="$PROJECT_DIR$/IDEA146324_NotFinished/IDEA146324.iml" />
@@ -28,6 +30,7 @@
       <module fileurl="file://$PROJECT_DIR$/RefactorMoveMappingPackSpring/RefactorMoveMappingPackSpring.iml" filepath="$PROJECT_DIR$/RefactorMoveMappingPackSpring/RefactorMoveMappingPackSpring.iml" />
       <module fileurl="file://$PROJECT_DIR$/SQLQueryWithSpecialSigns/SQLQueryWithSpecialSigns.iml" filepath="$PROJECT_DIR$/SQLQueryWithSpecialSigns/SQLQueryWithSpecialSigns.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBatchSQLSintaxError/SpringBatchSQLSintaxError.iml" filepath="$PROJECT_DIR$/SpringBatchSQLSintaxError/SpringBatchSQLSintaxError.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringHibernate3/SpringHibernate3.iml" filepath="$PROJECT_DIR$/SpringHibernate3/SpringHibernate3.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringJPATest/SpringJPATest.iml" filepath="$PROJECT_DIR$/SpringJPATest/SpringJPATest.iml" />
       <module fileurl="file://$PROJECT_DIR$/TESTproject.iml" filepath="$PROJECT_DIR$/TESTproject.iml" />
     </modules>

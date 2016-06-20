@@ -1,32 +1,29 @@
-package mainclass;
+package entities;
 
-import entities.City;
 //import entities.CityRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
+        import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 //import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.jdbc.core.JdbcTemplate;
+//import org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
 
-//@SpringBootApplication
-public class Application //implements CommandLineRunner
+@SpringBootApplication
+public class Application_NotWorking //implements CommandLineRunner
 {
 
-    private static final Logger log = LoggerFactory.getLogger(Application.class);
+    private static final Logger log = LoggerFactory.getLogger(Application_NotWorking.class);
 
     public static void main(String args[]) {
-        SpringApplication.run(Application.class, args);
+
+        SpringApplication.run(Application_NotWorking.class, args);
     }
 
-    /*@Bean
+    @Bean
     public CommandLineRunner demo(CityRepository repository) {
         return (args) -> {
             // save a couple of customers
@@ -45,7 +42,7 @@ public class Application //implements CommandLineRunner
             log.info("");
 
             // fetch an individual customer by ID
-            City city = repository.findOne(1L);
+            City city = repository.findOne(1);
             log.info("City found with findOne(1L):");
             log.info("--------------------------------");
             log.info(city.toString());
@@ -59,7 +56,7 @@ public class Application //implements CommandLineRunner
             }
             log.info("");
         };
-    }*/
+    }
     /*@Autowired
     JdbcTemplate jdbcTemplate;
 

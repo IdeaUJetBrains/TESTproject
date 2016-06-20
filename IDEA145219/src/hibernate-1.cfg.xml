@@ -11,9 +11,9 @@
     <!-- DB schema will be updated if needed -->
     <property name="hbm2ddl.auto">update</property>
 
-    <mapping resource="oracleDB/Idea146324.hbm.xml"/>
+    <!--<mapping resource="oracleDB/Idea146324.hbm.xml"/>-->
     <mapping class="oracleDB.Idea146324"/>
-    <mapping resource="oracleDB/my/cool/package1/Idea146324.hbm.xml"/>
+    <!--<mapping resource="oracleDB/my/cool/package1/Idea146324.hbm.xml"/>-->
 
 
   </session-factory>

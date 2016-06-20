@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+    <type-mapping>
+        <sql-type jdbc-type="VARCHAR" hibernate-type="String"></sql-type>
+        <sql-type jdbc-type="SMALLINT" hibernate-type="java.lang.Short"
+                  not-null="true" />
+        <sql-type jdbc-type="SMALLINT" hibernate-type="java.lang.Short" />
+        <sql-type jdbc-type="TINYINT" hibernate-type="java.lang.Byte"
+                  not-null="true" />
+        <sql-type jdbc-type="TINYINT" hibernate-type="java.lang.Byte" />
+        <sql-type jdbc-type="INTEGER" hibernate-type="java.lang.Integer" />
+        <sql-type jdbc-type="BIGINT" hibernate-type="java.lang.Long"
+                  not-null="true" />
+        <sql-type jdbc-type="DECIMAL" hibernate-type="java.lang.Double"
+                  not-null="true" />
+    </type-mapping>
+    <table-filter match-name="legion_dogz"></table-filter>
+</hibernate-reverse-engineering>
