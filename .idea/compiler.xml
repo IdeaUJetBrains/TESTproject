@@ -22,11 +22,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="IDEA137912" />
         <module name="IDEA153516" />
         <module name="SpringBatchSQLSintaxError" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="IDEA137912" target="1.5" />
       <module name="IDEA153516" target="1.5" />
       <module name="SpringBatchSQLSintaxError" target="1.8" />
     </bytecodeTargetLevel>

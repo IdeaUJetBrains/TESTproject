@@ -1,0 +1,5 @@
+CREATE TABLE public.table_name
+(
+    id INT,
+    type VARCHAR(255)
+);
