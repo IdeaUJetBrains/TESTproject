@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="IDEA71029.com.domain" default-cascade="merge" auto-import="false">
+	<class name="IDEA71029.com.domain.Service" table="TEST_SERVICE" optimistic-lock="dirty" dynamic-update="true">
+		<id name="serviceCd" column="SERVICE_CD" type="string">
+			<generator class="assigned"/>
+		</id>
+
+        <property name="description" type="string" column="DESCRIPTION"/>
+
+        <property name="version" type="long" column="VERSION" update="false"/>
+
+        <property name="name" type="string" column="NAME"/>
+
+        <property name="realmId" type="long" column="REALM_ID" not-null="true" insert="true" update="false" />
+
+        <property name="ServiceStartDate" type="IDEA71029.com.hibernate.CalendarUserType" column="SERVICE_START_DATE" />
+
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="IDEA71029.com.domain" default-cascade="merge" auto-import="false">
+	<class name="IDEA71029.com.domain.Company" table="TEST_COMPANY" optimistic-lock="dirty" dynamic-update="true">
+		<id name="companyId" column="COMPANY_SEQ" type="string">
+			<generator class="assigned"/>
+		</id>
+
+		<!-- Company Version Property -->
+		<property name="version" type="long" column="VERSION" update="false"/>
+
+		<!-- Company Admin Properties -->
+		<property name="creatorId" type="string" column="CREATOR_ID" not-null="false" />
+		<property name="modifierId" type="string" column="MODIFIER_ID" not-null="false" optimistic-lock="false"/>
+        <property name="realmId" type="long" column="REALM_ID" not-null="true" insert="true" update="false" />
+
+		<!-- Company Declared Properties -->
+		<property name="phone" type="string" column="PHONE" />
+
+		<property name="dbaName" type="string" column="DBA_NAME" />
+
+		<property name="fedTaxId" type="string" column="FED_TAX_ID" />
+
+		<property name="legalName" type="string" column="LEGAL_NAME" />
+
+		<property name="sourceCompanyId" type="string" column="SOURCE_COMPANY_ID" />
+
+	</class>
+</hibernate-mapping>

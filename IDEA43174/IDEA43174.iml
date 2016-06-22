@@ -28,7 +28,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Hibernate 4.2.2-4.2.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Hibernate 4.2.2-4.2.21" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="GlassFish 4.2.0.SNAPSHOT" level="application_server_libraries" />
     <orderEntry type="library" scope="PROVIDED" name="JPA2.0" level="project" />
   </component>

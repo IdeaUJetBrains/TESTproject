@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Hibernate 3.6.10-3.6.10" type="hibernate">
+  <library name="Hibernate 3.6.10-3.6.101" type="hibernate">
     <properties version="3.6.10" />
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/SpringHibernate3/lib/jta-1.1.jar!/" />

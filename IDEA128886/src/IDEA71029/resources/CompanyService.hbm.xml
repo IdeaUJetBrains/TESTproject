@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="IDEA71029.com.domain" default-cascade="merge" auto-import="false">
+	<class name="IDEA71029.com.domain.CompanyService" table="TEST_COMPANY_SERVICE" optimistic-lock="dirty" dynamic-update="true">
+
+        <id name="compServiceId" column="COMPANY_SERVICE_SEQ" type="string">
+			<generator class="assigned"/>
+		</id>
+
+		<property name="creatorId" type="string" column="CREATOR_ID" not-null="false" />
+
+        <property name="serviceName" type="string" column="SERVICE_NAME"/>
+
+        <property name="StatusCd" column="STATUS_CD">
+			<type name="IDEA71029.com.hibernate.StringEnumUserType">
+				<param name="enumClassname">IDEA71029.com.domain.ServiceStatusCode</param>
+			</type>
+		</property>
+
+        <property name="version" type="long" column="VERSION" update="false"/>
+
+        <property name="realmId" type="long" column="REALM_ID" not-null="true" insert="true" update="false" />
+
+        <many-to-one name="Company" class="IDEA71029.com.domain.Company" column="COMPANY_FK"  not-null="true"  />
+
+        <many-to-one name="Service" class="IDEA71029.com.domain.Service" column="SERVICE_FK"  not-null="true"  />
+
+        <property name="StartDate" type="IDEA71029.com.hibernate.CalendarUserType" column="START_DATE" />
+
+        <property name="Amount" type="IDEA71029.com.hibernate.MoneyUserType" column="AMOUNT" />
+
+	</class>
+</hibernate-mapping>
