@@ -41,15 +41,10 @@ public final class MoneyUserType implements UserType
         return obj.hashCode();
     }
 
-    @Override
-    public Object nullSafeGet(ResultSet resultSet, String[] strings, SessionImplementor sessionImplementor, Object o) throws HibernateException, SQLException {
-        return null;
-    }
 
-    @Override
-    public void nullSafeSet(PreparedStatement preparedStatement, Object o, int i, SessionImplementor sessionImplementor) throws HibernateException, SQLException {
 
-    }
+
+
 
     public final boolean isMutable()
     {
@@ -82,7 +77,8 @@ public final class MoneyUserType implements UserType
         }
     }
 
-    public final Object nullSafeGet(ResultSet rs, String[] names, Object owner) throws SQLException
+    @Override
+    public final Object nullSafeGet(ResultSet rs, String[] names, SessionImplementor sessionImplementor, Object owner) throws SQLException
     {
     	Money money;
 
@@ -107,7 +103,8 @@ public final class MoneyUserType implements UserType
 
     }
 
-    public final void nullSafeSet(PreparedStatement st, Object value, int index) throws SQLException
+    @Override
+    public final void nullSafeSet(PreparedStatement st, Object value, int index, SessionImplementor sessionImplementor) throws SQLException
     {
         Object localValue = value;
 
