@@ -51,7 +51,7 @@ public class Car {
     }
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "id.carRu", orphanRemoval = true)
-    @MapKey(name = "id.carDe")
+    @MapKey(name = "id.carDe")  //TODO Here is the inspectionError, that should not be here
     @OptimisticLock(excluded = true)
     private final Map<CarDe, CarLanguage1> CarLanguage1var = new java.util.HashMap<>();
 
