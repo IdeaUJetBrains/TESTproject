@@ -12,10 +12,6 @@ import java.io.Serializable;
 @Entity
 @Table(name = "CAR_LANGUAGE1", schema = "PUBLIC", catalog = "PUBLIC")
 public class CarLanguage1 {
-    /*private int aId;
-    private int bId;
-    private CarDe carDeByAId;
-    private CarRu carRuByBId;*/
 
     protected CarLanguage1() {  }
     public CarLanguage1(CarDe carDe, CarRu carRu) {
@@ -58,29 +54,6 @@ public class CarLanguage1 {
         }
         public void setCarRuByBId(CarRu carRuByBId) {  this.carRu = carRu; }
 
-        /*private int aId;
-        private int bId;
-
-        @Column(name = "A_ID", nullable = false)
-        @Id
-        public int getaId() {
-            return aId;
-        }
-
-        public void setaId(int aId) {
-            this.aId = aId;
-        }
-
-        @Column(name = "B_ID", nullable = false)
-        @Id
-        public int getbId() {
-            return bId;
-        }
-
-        public void setbId(int bId) {
-            this.bId = bId;
-        }
-*/
         @Override
         public boolean equals(Object o) {
             if (this == o) { return true; }
@@ -103,26 +76,6 @@ public class CarLanguage1 {
 
         }
     }
-
-   /* @Id
-    @Column(name = "A_ID", nullable = false)
-    public int getaId() {
-        return aId;
-    }
-
-    public void setaId(int aId) {
-        this.aId = aId;
-    }
-
-    @Id
-    @Column(name = "B_ID", nullable = false)
-    public int getbId() {
-        return bId;
-    }
-
-    public void setbId(int bId) {
-        this.bId = bId;
-    }*/
 
 
     @Override
