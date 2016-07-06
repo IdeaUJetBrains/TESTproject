@@ -1,4 +1,4 @@
-package mycase;
+package anycasewithmapkey;
 
 import com.sun.istack.internal.NotNull;
 
@@ -33,7 +33,7 @@ public class CarDescription implements Serializable {
     private Language language;
 
     public void setLanguage(Language language) {
-        this.languageId = language.getId();
+        this.languageId = language.getId().getId();
         this.language = language;
     }
 }

@@ -11,10 +11,11 @@ import javax.persistence.Table;
 
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
+import org.dom4j.Attribute;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
-import org.hibernate.metamodel.domain.Attribute;
 import org.hibernate.persister.walking.spi.AttributeDefinition;
+import usercase.HierarchyNode;
 
 /**
  * Defines a Hierarchy Node Attribute
@@ -63,9 +64,6 @@ public class HierarchyNodeAttribute implements Serializable {
     private HierarchyNodeAttributePK getId() {
         return id;
     }
-
-
-
 
     /**
      * Hierarchy Node Attribute Primary Key

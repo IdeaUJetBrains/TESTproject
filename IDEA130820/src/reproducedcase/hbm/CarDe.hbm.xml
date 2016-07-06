@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="reproducedcase.CarDe" table="CAR_DE" schema="PUBLIC" catalog="PUBLIC">
+        <id name="carDeId">
+            <column name="CAR_DE_ID" sql-type="integer(32)"/>
+        </id>
+        <set name="carLanguage1sByCarDeId" inverse="true">
+            <key>
+                <column name="A_ID"/>
+            </key>
+            <one-to-many not-found="ignore" class="reproducedcase.CarLanguage1"/>
+        </set>
+    </class>
+</hibernate-mapping>

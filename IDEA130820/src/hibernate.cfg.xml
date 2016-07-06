@@ -4,11 +4,28 @@
     "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
   <session-factory>
-    <property name="connection.url"/>
-    <property name="connection.driver_class"/>
-    <property name="connection.username"/>
-    <property name="connection.password"/>
-    <!-- DB schema will be updated if needed -->
-    <!-- <property name="hbm2ddl.auto">update</property> -->
+    <property name="connection.url">jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/TESTproject/JPADefault/db/DB</property>
+    <property name="connection.driver_class">org.hsqldb.jdbc.JDBCDriver</property>
+      <property name="connection.username">sa</property>
+      <property name="connection.password"></property>
+      <property name="dialect">org.hibernate.dialect.HSQLDialect</property>
+      <mapping resource="reproducedcase/hbm/Car.hbm.xml"/>
+      <mapping class="reproducedcase.Car"/>
+      <mapping resource="reproducedcase/hbm/CarDe.hbm.xml"/>
+      <mapping class="reproducedcase.CarDe"/>
+      <mapping resource="reproducedcase/hbm/CarDescription.hbm.xml"/>
+      <mapping class="reproducedcase.CarDescription"/>
+      <mapping resource="reproducedcase/hbm/CarLanguage1.hbm.xml"/>
+      <mapping class="reproducedcase.CarLanguage1"/>
+      <mapping resource="reproducedcase/hbm/CarRu.hbm.xml"/>
+      <mapping class="reproducedcase.CarRu"/>
+
+      <!--
+      <property name="connection.url">jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/TESTproject/IDEA156059/DB/DB156059</property>
+      <property name="connection.driver_class">org.hsqldb.jdbc.JDBCDriver</property>
+      <property name="connection.username">sa</property>
+      <property name="connection.password"></property>
+      <property name="dialect">org.hibernate.dialect.HSQLDialect</property>
+      -->
   </session-factory>
 </hibernate-configuration>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="idea99721.Productpart99721" table="PRODUCTPART99721" schema="PUBLIC" catalog="PUBLIC">
+        <id name="partId">
+            <column name="PART_ID" sql-type="integer(32)"/>
+        </id>
+        <set name="product99791sByPartId" inverse="true">
+            <key>
+                <column name="PARTS" not-null="true"/>
+            </key>
+            <one-to-many not-found="ignore" class="idea99721.Product99791"/>
+        </set>
+    </class>
+</hibernate-mapping>
