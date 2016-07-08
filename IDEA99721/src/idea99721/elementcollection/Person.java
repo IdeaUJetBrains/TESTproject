@@ -1,6 +1,5 @@
 package idea99721.elementcollection;
 
-import idea99721.newpackage.Personphone99791;
 
 import javax.persistence.*;
 import java.util.Collection;

@@ -1,7 +1,5 @@
 package idea99721.elementcollection;
 
-import idea99721.newpackage.Person99791;
-
 import javax.persistence.*;
 
 /**
@@ -13,7 +11,7 @@ public class Phone {
     private Integer personId;
     private int phoneId;
     private Integer phonenummer;
-    private idea99721.newpackage.Person99791 personByPersonId;
+    private Person personByPersonId;
 
     @Basic
     @Column(name = "PERSON_ID", nullable = true)
