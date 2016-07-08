@@ -4,16 +4,16 @@
     "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
   <session-factory>
-    <property name="connection.url">jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/TESTproject/IDEA156059/DB/DB156059</property>
+    <property name="connection.url">jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/TESTproject/JPADefault/db/DB</property>
     <property name="connection.driver_class">org.hsqldb.jdbc.JDBCDriver</property>
-    <property name="connection.username">sa</property>
-    <property name="connection.password"></property>
     <property name="dialect">org.hibernate.dialect.HSQLDialect</property>
-    <mapping class="idea99721.Product99791"/>
-    <mapping resource="idea99721/Product99791.hbm.xml"/>
-    <mapping resource="idea99721/Productpart99721.hbm.xml"/>
-    <mapping class="idea99721.Productpart99721"/>
+    <mapping resource="idea99721/hbmfiles/Person99791.hbm.xml"/>
+    <mapping class="idea99721.hbmfiles.Person99791"/>
+    <mapping resource="idea99721/hbmfiles/Personphone99791.hbm.xml"/>
+    <mapping class="idea99721.hbmfiles.Personphone99791"/>
 
-
+    <mapping class="idea99721.elementcollection.Person"/>
+    <mapping class="idea99721.elementcollection.Phone"/>
+    <mapping resource="idea99721/elementcollection/PersonORM.xml"/>
   </session-factory>
 </hibernate-configuration>

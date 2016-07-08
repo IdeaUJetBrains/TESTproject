@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+                 version="2.0">
+
+    <entity class="idea99721.elementcollection.Person">
+        <table name="PERSON99791" schema="PUBLIC" catalog="PUBLIC"/>
+        <attributes>
+            <id name="id">
+                <column name="ID" precision="32"/>
+            </id>
+            <basic name="name">
+                <column name="NAME" column-definition="UNKNOWN" nullable="false"/>
+            </basic>
+            <element-collection name="phonesById" >
+                <column name="PHONENUMMER" />
+                <collection-table name="PERSONPHONE99791">
+                    <join-column name="PERSON_ID" />
+                </collection-table>
+            </element-collection>
+        </attributes>
+    </entity>
+</entity-mappings>
