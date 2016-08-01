@@ -3,22 +3,14 @@
     "-//Hibernate/Hibernate Configuration DTD//EN"
     "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
-
-  <session-factory >
+  <session-factory>
     <property name="connection.url">jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/TESTproject/IDEA156059/DB/DB156059</property>
     <property name="connection.driver_class">org.hsqldb.jdbc.JDBCDriver</property>
     <property name="connection.username">sa</property>
     <property name="connection.password"></property>
-    <property name="dialect">org.hibernate.dialect.HSQLDialect</property>
-      <!--<property name="hibernate.ejb.naming_strategy">util.CustomNamingStrategy</property>-->
-
-      <!--<property name="hibernate.archive.autodetection">class</property>-->
-
-      <property name="hibernate.show_sql">true</property>
-      <property name="hibernate.format_sql">true</property>
-      <property name="hbm2ddl.auto">update</property>
-
-      <mapping class="entities.Idea1"/>
-
+    <mapping resource="testnewbug/Idea156442.hbm.xml"/>
+    <mapping class="testnewbug.Idea156442"/>
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
   </session-factory>
 </hibernate-configuration>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:hsqldb:file:C:/Users/Olga
+      Pavlova/IdeaProjects/TESTproject/IDEA156059/DB/DB156059</property>
+    <property name="connection.driver_class">org.hsqldb.jdbc.JDBCDriver</property>
+    <mapping resource="testnewbug/Idea156442.hbm.xml"/>
+    <mapping class="testnewbug.Account"/>
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

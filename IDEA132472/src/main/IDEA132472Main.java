@@ -1,4 +1,6 @@
-import entities.IDEA132472;
+package main;
+
+import entities.Idea1;
 import org.hibernate.Session;
 import util.HibernateUtil;
 
@@ -13,13 +15,13 @@ public class IDEA132472Main {
         Session session = new HibernateUtil().getSession();
 
 
-        List<IDEA132472> queryInt = session.createQuery("select res from entities.IDEA132472 res").list();
+        List<Idea1> queryInt = session.createQuery("from Idea1").list();
 
         System.out.println("queryInt: " + queryInt);
 
 
         System.out.println("Size="+ queryInt.size() );
-        for ( IDEA132472 res: queryInt ) {
+        for ( Idea1 res: queryInt ) {
             System.out.println("res: "+ res);
         }
 

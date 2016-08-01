@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="testnewbug.Idea156442" table="IDEA156442" schema="PUBLIC" catalog="PUBLIC">
+        <id name="someId">
+            <column name="SOME_ID" sql-type="integer(32)"/>
+        </id>
+        <property name="someText">
+            <column name="SOME_TEXT" sql-type="varchar(255)" not-null="true"/>
+        </property>
+        <property name="someDate">
+            <column name="SOME_DATE" sql-type="date(10)" not-null="true"/>
+        </property>
+    </class>
+    <class name="testnewbug.Account" table="ACCOUNT" schema="PUBLIC" catalog="PUBLIC">
+        <id name="id">
+            <column name="ID" sql-type="integer(32)"/>
+        </id>
+        <property name="account">
+            <column name="ACCOUNT" sql-type="integer(32)" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/IDEA144238/IDEA144238.iml" filepath="$PROJECT_DIR$/IDEA144238/IDEA144238.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA145144SpringBoot/IDEA145144SpringBoot.iml" filepath="$PROJECT_DIR$/IDEA145144SpringBoot/IDEA145144SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA145219/IDEA145219.iml" filepath="$PROJECT_DIR$/IDEA145219/IDEA145219.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IDEA146324/IDEA146324.iml" filepath="$PROJECT_DIR$/IDEA146324/IDEA146324.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA146324_NotFinished/IDEA146324.iml" filepath="$PROJECT_DIR$/IDEA146324_NotFinished/IDEA146324.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA147985/IDEA147985.iml" filepath="$PROJECT_DIR$/IDEA147985/IDEA147985.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA149449/IDEA149449.iml" filepath="$PROJECT_DIR$/IDEA149449/IDEA149449.iml" />
@@ -24,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/IDEA156059/IDEA156059.iml" filepath="$PROJECT_DIR$/IDEA156059/IDEA156059.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA156359/IDEA156359.iml" filepath="$PROJECT_DIR$/IDEA156359/IDEA156359.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA156442/IDEA156442.iml" filepath="$PROJECT_DIR$/IDEA156442/IDEA156442.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IDEA158533/IDEA158533.iml" filepath="$PROJECT_DIR$/IDEA158533/IDEA158533.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA23465/IDEA23465.iml" filepath="$PROJECT_DIR$/IDEA23465/IDEA23465.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA43174/IDEA43174.iml" filepath="$PROJECT_DIR$/IDEA43174/IDEA43174.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA79247/IDEA79247.iml" filepath="$PROJECT_DIR$/IDEA79247/IDEA79247.iml" />
@@ -43,6 +45,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringHibernate3/SpringHibernate3.iml" filepath="$PROJECT_DIR$/SpringHibernate3/SpringHibernate3.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringJPATest/SpringJPATest.iml" filepath="$PROJECT_DIR$/SpringJPATest/SpringJPATest.iml" />
       <module fileurl="file://$PROJECT_DIR$/TESTproject.iml" filepath="$PROJECT_DIR$/TESTproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestNewBug/TestNewBug.iml" filepath="$PROJECT_DIR$/TestNewBug/TestNewBug.iml" />
     </modules>
   </component>
 </project>

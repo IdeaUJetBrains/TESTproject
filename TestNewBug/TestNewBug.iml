@@ -4,12 +4,12 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="hibernate.cfg.xml" value="6e19b474-dc8c-4b1f-9d91-dd7ed3079bb7" />
+          <unit-entry name="hibernate.cfg.xml" value="3d8c4806-f566-4d20-bfc6-acac63576899" />
+          <unit-entry name="test1:hibernate.cfg.xml" value="3d8c4806-f566-4d20-bfc6-acac63576899" />
         </datasource-map>
-        <naming-strategy-map>
-          <unit-entry name="hibernate.cfg.xml" />
-        </naming-strategy-map>
+        <naming-strategy-map />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/test1/hibernate.cfg.xml" />
       </configuration>
     </facet>
   </component>
@@ -22,6 +22,5 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="GlassFish 4.2.0.SNAPSHOT" level="application_server_libraries" />
     <orderEntry type="library" name="Hibernate4.2.2" level="project" />
-    <orderEntry type="library" name="ojdbc7" level="project" />
   </component>
 </module>

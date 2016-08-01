@@ -12,7 +12,8 @@ public class HibernateSessionFactory {
     private static final SessionFactory sessionFactory = buildSessionFactory1();
 
     private static SessionFactory buildSessionFactory1() {
-        Configuration configuration = new Configuration().setProperty("hibernate.ejb.naming_strategy", "util.CustomNamingStrategy").configure();
+        Configuration configuration = new Configuration()//.setNamingStrategy(CustomNamingStrategy.INSTANCE)
+                .configure();
         ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
                 .applySettings(configuration.getProperties()).build();
         return configuration.buildSessionFactory(serviceRegistry);

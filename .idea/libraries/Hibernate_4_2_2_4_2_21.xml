@@ -1,6 +1,5 @@
 <component name="libraryTable">
-  <library name="Hibernate 4.2.2-4.2.21" type="hibernate">
-    <properties version="4.2.2" />
+  <library name="Hibernate 4.2.2-4.2.21">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/IDEA43174/lib/jboss-logging-3.1.0.GA.jar!/" />
       <root url="jar://$PROJECT_DIR$/IDEA43174/lib/hibernate-commons-annotations-4.0.2.Final.jar!/" />

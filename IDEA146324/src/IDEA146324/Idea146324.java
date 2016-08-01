@@ -1,6 +1,9 @@
 package IDEA146324;
 
+
+
 import javax.persistence.*;
+import javax.persistence.Entity;
 
 /**
  * Created by Olga Pavlova on 6/6/2016.

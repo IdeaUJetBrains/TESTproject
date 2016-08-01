@@ -3,8 +3,8 @@ package entities;
 import javax.persistence.*;
 
 @Entity
-//@Table(name = "IDEA132472ENTITY")
-public class IDEA132472 {
+@Table(name = "IDEA132472ENTITY")
+public class Idea1 {
 
     int id;
     @Id
