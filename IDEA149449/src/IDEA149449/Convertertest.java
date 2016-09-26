@@ -7,6 +7,7 @@ import java.sql.Timestamp;
  * Created by Olga Pavlova on 6/1/2016.
  */
 @Entity
+@Table(name = "convertertest")
 public class Convertertest {
     private int id;
     private Timestamp timetest;
