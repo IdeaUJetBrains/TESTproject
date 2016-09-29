@@ -10,7 +10,7 @@ import java.time.ZonedDateTime;
  * Created by Olga Pavlova on 9/28/2016.
  */
 @Entity
-@Table(name = "table_name_time_tz", schema = "public", catalog = "DOCKERDB")
+@Table(name = "table_name_time_tz")
 public class TableName {
     private int id;
     @Id
