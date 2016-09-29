@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:postgresql://192.168.99.100:15437/DOCKERDB</property>
+    <property name="connection.driver_class">org.postgresql.Driver</property>
+    <property name="dialect">org.hibernate.dialect.HSQLDialect</property>
+    <property name="hbm2ddl.auto">update</property>
+
+    <mapping class="SpaceRes"/>
+    <mapping class="totherdatetypes.TableName"/>
+    <mapping class="TestIntervalAsPeriod"/>
+    <mapping class="TestDateAsLocalDate"/>
+    <mapping class="TimeTZTest"/>
+    <mapping class="TestTimestampAsInstant"/>
+    <mapping class="TestTimestampAsZonedDateTime"/>
+    <mapping class="TestTimeAsLocalTime"/>
+
+
+
+  </session-factory>
+</hibernate-configuration>
