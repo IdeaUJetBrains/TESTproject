@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations" value="classpath:config/application.properties"/>
+    </bean>
+
+    <bean id="dataSource" destroy-method="close"  class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${spring.datasource.driver-class-name}"/>
+        <property name="url" value="${spring.datasource.url}"/>
+        <property name="username" value="${spring.datasource.username}"/>
+        <property name="password" value="${spring.datasource.password}"/>
+    </bean>
+
+
+    <!-- services -->
+    <bean id="city" class="entities.City">
+        <constructor-arg name="name" value="nam1"/>
+        <constructor-arg name="country" value="cont1"/>
+        <property name="id" value="2"/>
+        <property name="map" value="12"/>
+        <property name="state" value="true"/>
+    </bean>
+
+
+    <bean id="mysessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"></property>
+
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.HSQLDialect</prop>
+                <prop key="hibernate.hbm2ddl.auto">validate</prop>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.connection.url">jdbc:hsqldb:file:C:/Users/Olga
+                    Pavlova/IdeaProjects/TESTproject/JPADefault/db/DB
+                </prop>
+                <prop key="hibernate.connection.driver_class">org.hsqldb.jdbc.JDBCDriver</prop>
+
+            </props>
+        </property>
+        <property name="mappingLocations">
+            <list>
+                <value>classpath:config/city.hbm.xml</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="cityDao" class="entities.CityDao">
+        <property name="sessionFactory" ref="mysessionFactory"></property>
+    </bean>
+
+
+
+    <!--<bean id="myDataSource" class="org.apache.commons.dbcp.BasicDataSource"
+         destroy-method="close"
+         driverClassName="com.mysql.jdbc.Driver"
+         url="jdbc:mysql://localhost:3306/mydb"
+         username="root"
+         password="masterkaoli"/>-->
+
+
+    <!--<bean id="mappings"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+
+        &lt;!&ndash; typed as a java.util.Properties &ndash;&gt;
+        <property name="properties">
+            <value>
+                jdbc.driver.className=com.mysql.jdbc.Driver
+                jdbc.url=jdbc:mysql://localhost:3306/mydb
+            </value>
+        </property>
+    </bean>-->
+</beans>

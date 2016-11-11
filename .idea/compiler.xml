@@ -6,24 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Hibernate522Final" />
         <module name="IDEA130820" />
+        <module name="IDEA132472" />
         <module name="IDEA137912" />
         <module name="IDEA153516" />
+        <module name="IDEA160992" />
         <module name="SpringBatchSQLSintaxError" />
-      </profile>
-      <profile name="Annotation profile for jpa" enabled="true">
-        <sourceOutputDir name="../IDEA130820/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../IDEA130820/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="IDEA132472" />
+        <module name="SpringDataJPA" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="IDEA130820" target="1.5" />
-      <module name="IDEA132472" target="1.7" />
+      <module name="Hibernate522Final" target="1.7" />
+      <module name="IDEA130820" target="1.7" />
+      <module name="IDEA132472" target="1.5" />
       <module name="IDEA137912" target="1.5" />
       <module name="IDEA153516" target="1.5" />
+      <module name="IDEA160992" target="1.8" />
       <module name="SpringBatchSQLSintaxError" target="1.8" />
+      <module name="SpringDataJPA" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

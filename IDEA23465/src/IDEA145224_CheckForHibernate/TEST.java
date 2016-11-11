@@ -2,8 +2,10 @@ package IDEA145224_CheckForHibernate;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
-@Entity
+@Entity(name = "prefix$MyEntity")
+@Table(name = "TABLE_NAME")
 public class TEST {
     private int id;
 
@@ -22,6 +24,7 @@ public class TEST {
     }
 
     @Entity
+    @Table(name = "INNERENTITY")
     public static class InnerEntity {
         private int id;
 

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="078b2545-3d9e-4d53-ac5b-5ab09db0ce27" />
+          <option name="name" value="DDLSQLServer2008" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/JPAConsole/db/SQLServer2008.ddl" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="1bae063e-40b0-4bbf-9fa1-909872a3cd8f" />
+          <option name="name" value="DDL DB2" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/MappingToObject/_dialects/DB2.ddl" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="39e1a325-1505-4b56-9343-d7e1c1e53efe" />
+          <option name="name" value="DDL Derby" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/MappingToObject/_dialects/Derby.ddl" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="0231f99a-b8ef-42d3-9bef-d8216eee6f08" />
+          <option name="name" value="DDL H2" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/MappingToObject/_dialects/H2.ddl" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="d6a91683-6b9c-4c0b-978b-6fc32c517ffe" />
+          <option name="name" value="DDL HSQLDB" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/MappingToObject/_dialects/HSQLDB.ddl" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="347f9846-7a08-4a8a-88e7-7865a6446600" />
+          <option name="name" value="DDL MySQL" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/MappingToObject/_dialects/MySQL.ddl" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="78fd57b6-556b-4633-867d-53dbc4124c59" />
+          <option name="name" value="DDL Oracle" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/MappingToObject/_dialects/oracleAll.ddl" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="0a67b8a3-16ac-4cff-a31d-cd02d1795720" />
+          <option name="name" value="DDL OraclePlus" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/MappingToObject/_dialects/oraclePlusSQL.ddl" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="4381b8e6-d2bf-4890-850d-0329343e3d0d" />
+          <option name="name" value="DDL PostgraSQL" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/MappingToObject/_dialects/PostgaSQL.ddl" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="65e3a518-96a2-4bd3-b9e2-b4298e9d940b" />
+          <option name="name" value="DDL SQL92" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/MappingToObject/_dialects/SQL92.ddl" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="16ecb41e-0c3b-4cfb-8c5d-9c7086a927da" />
+          <option name="name" value="DDL Sqlite" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/MappingToObject/_dialects/Sqlite.ddl" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="54149c2f-be0f-4987-981e-de17b598cfb6" />
+          <option name="name" value="DDL SQLServer2008" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/MappingToObject/_dialects/SQLServer2008.ddl" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="be97486a-018b-4659-8254-0cf626a12c13" />
+          <option name="name" value="DDL Sybase" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/MappingToObject/_dialects/Sybase.ddl" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="4412f88c-4462-4727-88a2-44c4f541ab31" />
+          <option name="name" value="DDL OracleNVARCHAR2" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/MappingToObject/_dialects/Oracle_NVARCHAR2.ddl" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="8446e6a5-98da-4945-9418-011fb9a48326" />
+          <option name="name" value="DDL BUG Oracle" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/MappingToObject/_dialects/allMappingToObject/Mapping_To_Object_Oracle.ddl" />
+            </array>
+          </option>
+        </State>
+      </list>
+    </option>
+  </component>
+</project>

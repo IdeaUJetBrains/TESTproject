@@ -4,7 +4,7 @@ import org.hibernate.cfg.ImprovedNamingStrategy;
 
 public class CustomNamingStrategy extends ImprovedNamingStrategy {
 
-    private static final String SUFFIX = "ENTITY";
+    private static final String SUFFIX = "32472ENTITY";
 
     /**
      * Transforms class names to table names by using the described naming conventions.

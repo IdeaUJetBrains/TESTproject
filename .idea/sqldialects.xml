@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="dbSrc:///531ae655/04ab6eb5-d6c5-4cc9-94bf-3da4b7f00078" dialect="PostgreSQL" />
+    <file url="dbSrc:///531ae655/3d8c4806-f566-4d20-bfc6-acac63576899" dialect="HSQLDB" />
+    <file url="dbSrc:///531ae655/60a9285e-1504-4a09-8941-9c96331530e5" dialect="HSQLDB" />
+    <file url="dbSrc:///531ae655/a010d3bb-f5ec-4d47-bd08-e588e7afdebb" dialect="HSQLDB" />
+    <file url="dbSrc:///531ae655/a27a7fb1-0448-4198-8376-7ea1e5b5a24d" dialect="HSQLDB" />
+    <file url="dbSrc:///531ae655/a6108a8e-41ce-4784-bd9d-6eebb83e7a19" dialect="HSQLDB" />
     <file url="file://$USER_HOME$/Downloads/test_case (1).sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/IDEA137152/src/Main.java" dialect="HSQLDB" />
     <file url="file://$PROJECT_DIR$/IDEA144238/src/test_case.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/IDEA160992/src/example/UserRepository.java" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/JPAConsole/db/SQLServer2008.ddl" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/DB2.ddl" dialect="DB2" />
     <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/Derby.ddl" dialect="Derby" />
