@@ -11,6 +11,7 @@
     <file url="file://$PROJECT_DIR$/IDEA137152/src/Main.java" dialect="HSQLDB" />
     <file url="file://$PROJECT_DIR$/IDEA144238/src/test_case.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/IDEA160992/src/example/UserRepository.java" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/IDEA164781/src/JDBCPreparedStatementOnDuplicateExample.java" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/JPAConsole/db/SQLServer2008.ddl" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/DB2.ddl" dialect="DB2" />
     <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/Derby.ddl" dialect="Derby" />
@@ -27,5 +28,6 @@
     <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/oracleAll.ddl" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/oraclePlusSQL.ddl" dialect="OracleSqlPlus" />
     <file url="file://$PROJECT_DIR$/MappingToObject/_dialects/oracle_test.ddl" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/SpringBatchSQLSintaxError/src/hello/Application.java" dialect="MySQL" />
   </component>
 </project>
