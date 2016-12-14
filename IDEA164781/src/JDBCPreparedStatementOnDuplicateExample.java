@@ -11,7 +11,7 @@ public class JDBCPreparedStatementOnDuplicateExample {
 
         try {
 
-            selectRecordsFromTable();
+            updateRecords();
 
         } catch (SQLException e) {
 
@@ -21,23 +21,25 @@ public class JDBCPreparedStatementOnDuplicateExample {
 
     }
 
-    private static void selectRecordsFromTable() throws SQLException {
+    private static void updateRecords() throws SQLException {
 
         Connection dbConnection = null;
         PreparedStatement preparedStatement = null;
         String number = "test";
         String number1 = "test1";
 
+        //language=MySQL
         String sql = "INSERT INTO BUS (id, number) VALUES (127, ? ) ON DUPLICATE KEY UPDATE number  = ?";
 
         try {
             dbConnection = getDBConnection();
             preparedStatement = dbConnection.prepareStatement(sql);
             preparedStatement.setString(1, number);
-            //This one shows as an error
+
+            //Bug: This one should show an error: CANNOT reproduce
             preparedStatement.setString( 2, number1 );
             System.out.println("done");
-            // execute select SQL stetement
+            // execute update SQL statement
              preparedStatement.executeUpdate();
 
         } catch (SQLException e) {
