@@ -13,7 +13,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
+  <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/../out/production/IDEA156026" />
     <output-test url="file://$MODULE_DIR$/../out/test/IDEA156026" />
     <exclude-output />

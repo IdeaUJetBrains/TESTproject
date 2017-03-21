@@ -107,5 +107,11 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="DOCKERDB@172.27.121.121" uuid="4e2f9785-9037-4f6c-b4f1-dffb5335ad0b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://172.27.121.121:15437/DOCKERDB</jdbc-url>
+    </data-source>
   </component>
 </project>

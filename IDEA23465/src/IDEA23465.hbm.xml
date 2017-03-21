@@ -3,7 +3,7 @@
 <hibernate-mapping>
 
     <typedef class="TestClass" name="testEnum">
-        <param name="CLASS_NAME">IDEA23465$TestEnum2</param>
+        <param name="CLASS_NAME">IDEA23465$TestEnum3</param>
     </typedef>
 
     <class name="IDEA23465" table="IDEA23465">

@@ -14,8 +14,8 @@ public class IDEA23465 {
         this.id = id;
     }
 
-    public enum TestEnum2 {
-        val1,
+    public enum TestEnum3 {
+        val11,
         val2
     }
 

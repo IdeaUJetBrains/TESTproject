@@ -18,7 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/IDEA145144SpringBoot/IDEA145144SpringBoot.iml" filepath="$PROJECT_DIR$/IDEA145144SpringBoot/IDEA145144SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA145219/IDEA145219.iml" filepath="$PROJECT_DIR$/IDEA145219/IDEA145219.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA146324/IDEA146324.iml" filepath="$PROJECT_DIR$/IDEA146324/IDEA146324.iml" />
-      <module fileurl="file://$PROJECT_DIR$/IDEA146324_NotFinished/IDEA146324.iml" filepath="$PROJECT_DIR$/IDEA146324_NotFinished/IDEA146324.iml" />
+      <module fileurl="file://C:\Users\Olga Pavlova\IdeaProjects\TESTproject\IDEA146324_NotFinished\IDEA146324.iml" filepath="C:\Users\Olga Pavlova\IdeaProjects\TESTproject\IDEA146324_NotFinished\IDEA146324.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA147985/IDEA147985.iml" filepath="$PROJECT_DIR$/IDEA147985/IDEA147985.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA149449/IDEA149449.iml" filepath="$PROJECT_DIR$/IDEA149449/IDEA149449.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA153516/IDEA153516.iml" filepath="$PROJECT_DIR$/IDEA153516/IDEA153516.iml" />
@@ -32,8 +32,10 @@
       <module fileurl="file://$PROJECT_DIR$/IDEA160992/IDEA160992.iml" filepath="$PROJECT_DIR$/IDEA160992/IDEA160992.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA164147/IDEA164147.iml" filepath="$PROJECT_DIR$/IDEA164147/IDEA164147.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA164781/IDEA164781.iml" filepath="$PROJECT_DIR$/IDEA164781/IDEA164781.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IDEA167141/IDEA167141.iml" filepath="$PROJECT_DIR$/IDEA167141/IDEA167141.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA23465/IDEA23465.iml" filepath="$PROJECT_DIR$/IDEA23465/IDEA23465.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA43174/IDEA43174.iml" filepath="$PROJECT_DIR$/IDEA43174/IDEA43174.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IDEA52113/IDEA52113.iml" filepath="$PROJECT_DIR$/IDEA52113/IDEA52113.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA79247/IDEA79247.iml" filepath="$PROJECT_DIR$/IDEA79247/IDEA79247.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA91457/IDEA91457.iml" filepath="$PROJECT_DIR$/IDEA91457/IDEA91457.iml" />
       <module fileurl="file://$PROJECT_DIR$/IDEA99721/IDEA99721.iml" filepath="$PROJECT_DIR$/IDEA99721/IDEA99721.iml" />
@@ -44,6 +46,8 @@
       <module fileurl="file://$PROJECT_DIR$/JPADefault/JPADefault.iml" filepath="$PROJECT_DIR$/JPADefault/JPADefault.iml" />
       <module fileurl="file://$PROJECT_DIR$/ManyToMany/ManyToMany.iml" filepath="$PROJECT_DIR$/ManyToMany/ManyToMany.iml" />
       <module fileurl="file://$PROJECT_DIR$/MappingToObject/MappingToObject.iml" filepath="$PROJECT_DIR$/MappingToObject/MappingToObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PK/PK.iml" filepath="$PROJECT_DIR$/PK/PK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PKJPA/PKJPA.iml" filepath="$PROJECT_DIR$/PKJPA/PKJPA.iml" />
       <module fileurl="file://$PROJECT_DIR$/RefactorMoveMappingPack/RefactorMoveMappingPack.iml" filepath="$PROJECT_DIR$/RefactorMoveMappingPack/RefactorMoveMappingPack.iml" />
       <module fileurl="file://$PROJECT_DIR$/RefactorMoveMappingPackSpring/RefactorMoveMappingPackSpring.iml" filepath="$PROJECT_DIR$/RefactorMoveMappingPackSpring/RefactorMoveMappingPackSpring.iml" />
       <module fileurl="file://$PROJECT_DIR$/SQLQueryWithSpecialSigns/SQLQueryWithSpecialSigns.iml" filepath="$PROJECT_DIR$/SQLQueryWithSpecialSigns/SQLQueryWithSpecialSigns.iml" />

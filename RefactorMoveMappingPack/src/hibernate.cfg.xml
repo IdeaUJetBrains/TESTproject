@@ -8,7 +8,7 @@
         <property name="connection.driver_class">org.hsqldb.jdbc.JDBCDriver</property>
         <property name="connection.username">SA</property>
 
-        <mapping resource="IDEA39404/map/hbm/resources/Generated.hbm.xml"/>
+        <mapping resource="IDEA39404/map/hbm/resources1/Generated.hbm.xml"/>
 
 
     </session-factory>
