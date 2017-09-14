@@ -51,7 +51,7 @@ public class Application implements CommandLineRunner {
                 (rs, rowNum) -> new Customer(rs.getLong("id"), rs.getString("first_name"), rs.getString("last_name"))
         ).forEach(customer -> log.info(customer.toString()));
 
-        jdbcTemplate.batchUpdate("DELETE p FROM Professor  p");
+        jdbcTemplate.batchUpdate(new String[]{"DELETE p FROM Professor  p"});
 
     }
 }

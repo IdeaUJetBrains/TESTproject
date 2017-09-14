@@ -11,13 +11,13 @@
       <property name="dialect">org.hibernate.dialect.HSQLDialect</property>
     <property name="hbm2ddl.auto">update</property>
 
-    <mapping class="IDEA149449.RectangleEntity"/>
-      <mapping class="IDEA149449.Convertertest"/>
-    -->
+    &lt;!&ndash;<mapping class="IDEA149449.RectangleEntity"/>&ndash;&gt;
+      &lt;!&ndash;<mapping class="IDEA149449.Convertertest"/>&ndash;&gt;
+    <mapping class="IDEA156026.SpaceReservation"/>-->
 
 
 
-    <property name="connection.url">jdbc:postgresql://192.168.99.100:15437/DOCKERDB</property>
+    <property name="connection.url">jdbc:postgresql://172.27.121.121:15437/DOCKERDB</property>
     <property name="connection.driver_class">org.postgresql.Driver</property>
     <property name="connection.username">root</property>
     <property name="connection.password"></property>

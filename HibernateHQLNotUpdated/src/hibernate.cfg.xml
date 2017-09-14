@@ -6,10 +6,10 @@
     <session-factory>
         <property name="connection.url">jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/TESTproject/JPADefault/db/DB</property>
         <property name="connection.driver_class">org.hsqldb.jdbc.JDBCDriver</property>
-
+        <property name="hibernate.dialect">org.hibernate.dialect.HSQLDialect</property>
         <!--AnnotatedClass-->
-        <mapping resource="IDEA41307AnnotatedClass/ClassName.hbm.xml"/>
-        <mapping class="IDEA41307AnnotatedClass.ClassName"/>
+        <mapping resource="entity/ClassName.hbm.xml"/>
+        <mapping class="entity.ClassName"/>
 
         <!--BUG reproducable for this class-->
         <mapping resource="IDEA41307NotAnnotated/Professor.hbm.xml"/>

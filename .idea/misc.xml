@@ -3,14 +3,8 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/SpringBatchSQLSintaxError/pom.xml" />
-        <option value="$PROJECT_DIR$/IDEA153516/pom.xml" />
-        <option value="$PROJECT_DIR$/IDEA137912/pom.xml" />
-        <option value="$PROJECT_DIR$/IDEA132472/pom.xml" />
-        <option value="$PROJECT_DIR$/IDEA130820/pom.xml" />
-        <option value="$PROJECT_DIR$/Hibernate522Final/pom.xml" />
-        <option value="$PROJECT_DIR$/IDEA160992/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringDataJPA/pom.xml" />
+        <option value="$PROJECT_DIR$/temp/IDEA145144SpringBoot1/pom.xml" />
+        <option value="$PROJECT_DIR$/IDEA135060/pom.xml" />
       </list>
     </option>
   </component>

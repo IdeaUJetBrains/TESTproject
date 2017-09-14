@@ -113,5 +113,17 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://172.27.121.121:15437/DOCKERDB</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="DB [2]" uuid="88d0b801-0b44-4fbf-b202-e33aa2a15546">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/DB/DB</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="DB174370" uuid="43d726c9-04b8-4f96-97b2-e8a250085fe7">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/IDEA174370/db/DB174370</jdbc-url>
+    </data-source>
   </component>
 </project>
