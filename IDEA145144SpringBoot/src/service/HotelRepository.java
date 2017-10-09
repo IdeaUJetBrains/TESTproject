@@ -23,4 +23,6 @@ interface HotelRepository extends Repository<Hotel, Long> {
             + "from Review r where r.hotel = ?1 group by r.rating order by r.rating DESC")
     List<RatingCount> findRatingCounts(Hotel hotel);
 
+    @Query("SELECT p FROM RatingCount p INNER JOIN p.tags t WHERE p.deleted = false GROUP BY p.id HAVING SUM(CASE WHEN t.id IN ?1 THEN 1 ELSE 0 END) >= ?2")
+    List<RatingCount> findByTags(List<Long> tagIds, long length, Pageable pageable);
 }
