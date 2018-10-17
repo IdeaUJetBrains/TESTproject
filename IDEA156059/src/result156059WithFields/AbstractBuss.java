@@ -4,10 +4,11 @@ package result156059WithFields;
 
 import javax.persistence.*;
 
-//@Entity
-@MappedSuperclass
+@Entity
+//@MappedSuperclass
+//@Table(name = "BUSS")
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
-public abstract class AbstractBuss {
+public abstract class AbstractBuss extends JSEntity{
 
     @Id
     @Column(name = "ID", nullable = false)

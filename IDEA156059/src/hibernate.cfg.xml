@@ -10,9 +10,9 @@
     <property name="connection.password"></property>
     <!--<property name="hibernate.hbm2ddl.auto">validate</property>-->
 
-    <!--<mapping class="result156059WithFields.Buss" />-->
-    <!--<mapping class="result156059WithFields.Driver" />-->
-    <!--<mapping class="result156059WithFields.AbstractBuss" />-->
+    <mapping class="result156059WithFields.Buss" />
+    <mapping class="result156059WithFields.Driver" />
+    <mapping class="result156059WithFields.AbstractBuss" />
     <!--<mapping class="IDEA156442.Test" />-->
     <!-- DB schema will be updated if needed -->
     <!-- <property name="hbm2ddl.auto">update</property> -->

@@ -18,6 +18,7 @@ public class AppMain1 {
 
         Query query1 = session.createQuery(HQL).setParameter("drId", 1);
         Query query = session.createQuery(HQL1).setParameter("drId", 1);
+        session.createQuery("SELECT d FROM Buss d WHERE driverById.id = :drId" );
 
         List<Buss> results = (List<Buss>)query.list();
         System.out.println(results);
